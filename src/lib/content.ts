@@ -1,8 +1,11 @@
 ﻿import structure from "@/data/site-structure.json";
 import { fetchSanityLegacyPages, sanityEnabled } from "@/lib/sanity";
+import { existsSync } from "node:fs";
+import path from "node:path";
 import type { InternalMenuItem, LegacyPage, LegacySiteStructure, SiteContent } from "@/types/content";
 
 const typed = structure as LegacySiteStructure;
+const PUBLIC_DIR = path.join(process.cwd(), "public");
 
 const DEFAULT_FALLBACK_IMAGE = "/legacy-assets/meienergy.de/wp-content/uploads/2021/08/Sauna-Bild.jpg";
 const FALLBACK_BY_PATH: Record<string, string> = {
@@ -513,6 +516,7 @@ function imageCandidateScore(urlLike: string) {
   if (!value) return -1000;
   if (value.startsWith("data:")) return -1000;
   if (BLOCKED_IMAGE_PATTERNS.some((pattern) => pattern.test(value))) return -1000;
+  if (!assetReferenceIsReachable(value)) return -1000;
 
   let score = 0;
   if (value.includes("/wp-content/uploads/") || value.includes("/legacy-assets/")) score += 40;
@@ -532,6 +536,13 @@ function getImageFingerprint(page: LegacyPage) {
     return normalized.toLowerCase();
   }
   return "";
+}
+
+function assetReferenceIsReachable(value: string) {
+  if (!value.startsWith("/legacy-assets/")) return true;
+  const relative = value.replace(/^\//, "").replaceAll("/", path.sep);
+  const localPath = path.join(PUBLIC_DIR, relative);
+  return existsSync(localPath);
 }
 
 function textToParagraphHtml(value: string) {
