@@ -1,10 +1,12 @@
 ﻿import structure from "@/data/site-structure.json";
+import { fetchSanityLegacyPages, sanityEnabled } from "@/lib/sanity";
 import type { InternalMenuItem, LegacyPage, LegacySiteStructure, SiteContent } from "@/types/content";
 
 const typed = structure as LegacySiteStructure;
 
 export async function getSiteContent(): Promise<SiteContent> {
-  const pages = applyAliases(dedupePages(typed.pages || []));
+  const basePages = applyAliases(dedupePages(typed.pages || []));
+  const pages = await mergeSanityContent(basePages);
   const routeSet = new Set<string>(pages.map((page) => normalizePath(page.path)));
 
   const menu = sanitizeMenu(typed.primaryMenu || [], routeSet);
@@ -18,13 +20,61 @@ export async function getSiteContent(): Promise<SiteContent> {
   return {
     generatedAt: typed.generatedAt || new Date().toISOString(),
     source: typed.source || "https://meienergy.de",
-    sourceLabel: "legacy-site-snapshot",
+    sourceLabel: sanityEnabled ? "legacy-site-snapshot + sanity-overlay" : "legacy-site-snapshot",
     hostAllowList: (typed.hostAllowList || []).map((item) => String(item || "").toLowerCase()),
     menu,
     menuItems,
     pages,
     routes,
   };
+}
+
+async function mergeSanityContent(basePages: LegacyPage[]) {
+  if (!sanityEnabled) return basePages;
+
+  const sanityRows = await fetchSanityLegacyPages();
+  if (sanityRows.length === 0) return basePages;
+
+  const byPath = new Map<string, LegacyPage>();
+  for (const page of basePages) {
+    byPath.set(normalizePath(page.path), page);
+  }
+
+  for (const row of sanityRows) {
+    const path = normalizePath(row.path || "/");
+    const existing = byPath.get(path);
+    const bodyText = cleanText(row.body || "");
+    const bodyHtml = bodyText ? textToParagraphHtml(bodyText) : "";
+    const hero = normalizeAsset(row.heroImageUrl || "");
+
+    if (existing) {
+      byPath.set(path, {
+        ...existing,
+        title: cleanText(row.title || existing.title),
+        excerpt: cleanText(row.excerpt || existing.excerpt),
+        text: bodyText || existing.text,
+        html: bodyHtml || existing.html,
+        heroImage: hero || existing.heroImage,
+        category: cleanText(row.category || existing.category).toLowerCase() || existing.category,
+      });
+      continue;
+    }
+
+    byPath.set(path, {
+      id: String(row._id || `sanity-${path}`),
+      url: `${typed.source || "https://meienergy.de"}${path}`,
+      path,
+      title: cleanText(row.title || "Untitled"),
+      excerpt: cleanText(row.excerpt || ""),
+      text: bodyText,
+      html: bodyHtml || "<p>Sanity content page.</p>",
+      heroImage: hero,
+      updatedAt: "",
+      category: cleanText(row.category || "page").toLowerCase() || "page",
+    });
+  }
+
+  return [...byPath.values()].sort((a, b) => a.path.localeCompare(b.path));
 }
 
 function applyAliases(pages: LegacyPage[]) {
@@ -318,4 +368,22 @@ function parseDate(value: string) {
   if (!normalized) return 0;
   const epoch = Date.parse(normalized);
   return Number.isNaN(epoch) ? 0 : epoch;
+}
+
+function textToParagraphHtml(value: string) {
+  return String(value || "")
+    .split(/\n{2,}/)
+    .map((part) => part.trim())
+    .filter(Boolean)
+    .map((part) => `<p>${escapeHtml(part)}</p>`)
+    .join("");
+}
+
+function escapeHtml(value: string) {
+  return value
+    .replaceAll("&", "&amp;")
+    .replaceAll("<", "&lt;")
+    .replaceAll(">", "&gt;")
+    .replaceAll('"', "&quot;")
+    .replaceAll("'", "&#39;");
 }
