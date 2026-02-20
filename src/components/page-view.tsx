@@ -28,7 +28,7 @@ export function PageView({ page, content }: Props) {
         <section className="media-panel media-panel-soft">
           <div className="hero-media-frame">
             {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img src={page.heroImage} alt={page.title} className="hero-media" loading="lazy" />
+            <img src={page.heroImage} alt={page.title} className="hero-media" loading="eager" fetchPriority="high" />
           </div>
         </section>
       ) : null}

@@ -23,7 +23,6 @@ export function Navigation({ menuItems }: Props) {
     const list: MenuLink[] = [];
     for (const item of menuItems) {
       const href = item.path || item.href;
-      if (href === "/library") continue;
       if (list.find((entry) => entry.href === href)) continue;
       list.push({
         key: `${item.label}-${href}`,

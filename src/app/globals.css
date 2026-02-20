@@ -180,10 +180,12 @@ img {
   background: rgba(255, 255, 255, 0.9);
   display: grid;
   grid-template-rows: 1fr auto;
+  height: 172px;
 }
 
 .hero-showcase-1 {
   grid-column: span 2;
+  height: 238px;
 }
 
 .hero-showcase-image {
@@ -407,10 +409,14 @@ h3 {
   border: 1px solid rgba(78, 101, 132, 0.2);
   background: #f8f7f4;
   overflow: hidden;
+  display: grid;
+  place-items: center;
+  min-height: 220px;
 }
 
 .hero-media {
-  width: 100%;
+  width: auto;
+  max-width: 100%;
   max-height: min(72vh, 740px);
   object-fit: contain;
 }
@@ -748,6 +754,11 @@ h3 {
 
   .hero-showcase-1 {
     grid-column: auto;
+    height: 190px;
+  }
+
+  .hero-showcase-card {
+    height: 168px;
   }
 
   .feature-image-frame {

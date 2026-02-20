@@ -109,7 +109,7 @@ function sanitizeLegacyHtml(input: string) {
   html = html
     .replace(/<(p|div|span)>(\s|&nbsp;|<br\s*\/?\s*>)*<\/\1>/gi, "")
     .replace(/(<br\s*\/?\s*>\s*){3,}/gi, "<br /><br />")
-    .replace(/<img[^>]*(mei[_-]?energy[_-]?logo|neu-mei[_-]?energy[_-]?logo|footer-logo|favicon)[^>]*>/gi, "");
+    .replace(/<img[^>]*(footer-logo|favicon|submit-spin|borlabs-cookie-logo)[^>]*>/gi, "");
 
   return html.trim();
 }
