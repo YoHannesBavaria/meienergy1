@@ -19,6 +19,7 @@ npm run test:unit
 npm run test:integration
 npm run build
 npm run start
+npm run sync:sanity
 ```
 
 ## Local setup
@@ -46,5 +47,14 @@ Set environment variables when enabling Sanity reads:
 - `NEXT_PUBLIC_SANITY_PROJECT_ID=wa2b6xby`
 - `NEXT_PUBLIC_SANITY_DATASET=production`
 - `SANITY_API_READ_TOKEN=<token>`
+- `SANITY_API_WRITE_TOKEN=<token>` (for `npm run sync:sanity`)
 
 Without these values, the app uses the embedded legacy snapshot data.
+
+### Initial content sync to Sanity
+
+```bash
+npm run sync:sanity
+```
+
+The script upserts `legacyPage` documents from `src/data/site-structure.json`.

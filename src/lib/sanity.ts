@@ -34,10 +34,10 @@ export async function fetchSanityLegacyPages(): Promise<SanityLegacyPage[]> {
     const rows = await client.fetch(`*[_type == "legacyPage"]{
       _id,
       title,
-      "path": select(defined(path.current) => path.current, "/"),
+      "path": select(defined(routePath) => routePath, defined(path.current) => path.current, "/"),
       excerpt,
       category,
-      "heroImageUrl": heroImage.asset->url,
+      "heroImageUrl": select(defined(heroImage.asset->url) => heroImage.asset->url, defined(heroImageUrl) => heroImageUrl, ""),
       body
     }`);
 
