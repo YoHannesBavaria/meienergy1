@@ -51,10 +51,10 @@ export function SiteFooter() {
         </section>
 
         <section className="footer-block">
-          <h2>Status</h2>
-          <p>Legacy-Inhalte vollstaendig migriert</p>
-          <p>Neuimplementierung auf Next.js</p>
-          <p>Sanity-ready Content Layer</p>
+          <h2>Service</h2>
+          <p>Persoenliche Trainingsberatung</p>
+          <p>Kurse fuer Einsteiger und Fortgeschrittene</p>
+          <p>Direkter Kontakt fuer Probetraining</p>
         </section>
       </div>
     </footer>

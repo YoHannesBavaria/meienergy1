@@ -4,6 +4,43 @@ import type { InternalMenuItem, LegacyPage, LegacySiteStructure, SiteContent } f
 
 const typed = structure as LegacySiteStructure;
 
+const DEFAULT_FALLBACK_IMAGE = "/legacy-assets/meienergy.de/wp-content/uploads/2021/08/Sauna-Bild.jpg";
+const FALLBACK_BY_PATH: Record<string, string> = {
+  "/": "/legacy-assets/meienergy.de/wp-content/uploads/2022/08/8-Hantelbild.jpg",
+  "/kontakt": "/legacy-assets/meienergy.de/wp-content/uploads/2024/02/98a52de0-245b-4036-9303-8bc455932baf-scaled.jpg",
+  "/galerie": "/legacy-assets/meienergy.de/wp-content/uploads/2022/08/8-Hantelbild.jpg",
+  "/feedback": "/legacy-assets/meienergy.de/wp-content/uploads/2020/07/author-1-1.jpg",
+  "/kursuebersicht": "/legacy-assets/meienergy.de/wp-content/uploads/2020/07/news-10.jpg",
+  "/werde-mitglied": "/legacy-assets/meienergy.de/wp-content/uploads/2020/07/news-9.jpg",
+  "/unsere-angebote": "/legacy-assets/meienergy.de/wp-content/uploads/2020/07/news-8.jpg",
+  "/faq": "/legacy-assets/meienergy.de/wp-content/uploads/2020/07/faq.png",
+  "/faqs": "/legacy-assets/meienergy.de/wp-content/uploads/2020/07/faq.png",
+};
+
+const BLOCKED_IMAGE_PATTERNS = [
+  /logo/i,
+  /favicon/i,
+  /submit-spin/i,
+  /spinner/i,
+  /borlabs/i,
+  /award\.png/i,
+  /g-point/i,
+  /alex-pfeiffer/i,
+  /faq\.png/i,
+  /wpforms-lite/i,
+  /elementor/i,
+  /plugins\//i,
+];
+
+const HOME_FEATURE_PATHS = [
+  "/ueber-uns",
+  "/faqs",
+  "/meienergy-team",
+  "/kursuebersicht",
+  "/feedback",
+  "/werde-mitglied",
+];
+
 export async function getSiteContent(): Promise<SiteContent> {
   const basePages = applyAliases(dedupePages(typed.pages || []));
   const pages = await mergeSanityContent(basePages);
@@ -20,7 +57,7 @@ export async function getSiteContent(): Promise<SiteContent> {
   return {
     generatedAt: typed.generatedAt || new Date().toISOString(),
     source: typed.source || "https://meienergy.de",
-    sourceLabel: sanityEnabled ? "legacy-site-snapshot + sanity-overlay" : "legacy-site-snapshot",
+    sourceLabel: sanityEnabled ? "Sanity Live-Inhalte" : "Legacy-Inhalte lokal eingebettet",
     hostAllowList: (typed.hostAllowList || []).map((item) => String(item || "").toLowerCase()),
     menu,
     menuItems,
@@ -48,19 +85,22 @@ async function mergeSanityContent(basePages: LegacyPage[]) {
     const hero = normalizeAsset(row.heroImageUrl || "");
 
     if (existing) {
-      byPath.set(path, {
+      const merged: LegacyPage = {
         ...existing,
         title: cleanText(row.title || existing.title),
         excerpt: cleanText(row.excerpt || existing.excerpt),
         text: bodyText || existing.text,
         html: bodyHtml || existing.html,
         heroImage: hero || existing.heroImage,
+        contentImages: extractImageCandidatesFromHtml(bodyHtml || existing.html).filter((value) => isUsefulContentImage(value)),
         category: cleanText(row.category || existing.category).toLowerCase() || existing.category,
-      });
+      };
+      merged.heroImage = selectBestHeroImage(merged.path, merged.heroImage, merged.contentImages || []);
+      byPath.set(path, merged);
       continue;
     }
 
-    byPath.set(path, {
+    const created: LegacyPage = {
       id: String(row._id || `sanity-${path}`),
       url: `${typed.source || "https://meienergy.de"}${path}`,
       path,
@@ -69,9 +109,13 @@ async function mergeSanityContent(basePages: LegacyPage[]) {
       text: bodyText,
       html: bodyHtml || "<p>Sanity content page.</p>",
       heroImage: hero,
+      contentImages: extractImageCandidatesFromHtml(bodyHtml || "").filter((value) => isUsefulContentImage(value)),
       updatedAt: "",
       category: cleanText(row.category || "page").toLowerCase() || "page",
-    });
+    };
+
+    created.heroImage = selectBestHeroImage(created.path, created.heroImage, created.contentImages || []);
+    byPath.set(path, created);
   }
 
   return [...byPath.values()].sort((a, b) => a.path.localeCompare(b.path));
@@ -124,7 +168,7 @@ export function getHomePage(content: SiteContent): LegacyPage {
       excerpt: "Dein Fitness-Studio fuer Koerper, Geist und Seele",
       text: "Mei Energy",
       html: "<p>Mei Energy</p>",
-      heroImage: "",
+      heroImage: FALLBACK_BY_PATH["/"],
       updatedAt: "",
       category: "home",
     }
@@ -132,6 +176,11 @@ export function getHomePage(content: SiteContent): LegacyPage {
 }
 
 export function getFeaturedPages(content: SiteContent): LegacyPage[] {
+  const byPriority = HOME_FEATURE_PATHS.map((path) => getPageByPath(path, content))
+    .filter((page): page is LegacyPage => page !== null);
+
+  if (byPriority.length >= 6) return byPriority.slice(0, 6);
+
   const menuPaths = content.menuItems
     .map((item) => item.path)
     .filter((path): path is string => Boolean(path))
@@ -141,10 +190,8 @@ export function getFeaturedPages(content: SiteContent): LegacyPage[] {
     .map((path) => getPageByPath(path, content))
     .filter((page): page is LegacyPage => page !== null);
 
-  if (byMenu.length >= 6) return byMenu.slice(0, 6);
-
   const fallback = content.pages.filter((page) => page.path !== "/");
-  const combined: LegacyPage[] = [...byMenu];
+  const combined: LegacyPage[] = [...byPriority, ...byMenu];
   for (const candidate of fallback) {
     if (combined.find((item) => item.path === candidate.path)) continue;
     combined.push(candidate);
@@ -157,8 +204,16 @@ export function getLatestPages(content: SiteContent, limit = 9): LegacyPage[] {
   const candidates = content.pages.filter((page) => {
     const path = normalizePath(page.path);
     if (path === "/" || path === "/library") return false;
+    if (path.includes("/page/")) return false;
     if (path.startsWith("/category/")) return false;
     if (path.startsWith("/author/")) return false;
+    if (path.startsWith("/tag/")) return false;
+    if (path.startsWith("/team-cat/")) return false;
+    if (path.startsWith("/project-cat/")) return false;
+    if (path.startsWith("/service-cat/")) return false;
+    if (path.startsWith("/stars_testimonial_cat/")) return false;
+    if (path.startsWith("/timetable/")) return false;
+    if (cleanText(page.excerpt || page.text).length < 48) return false;
     return true;
   });
 
@@ -169,7 +224,28 @@ export function getLatestPages(content: SiteContent, limit = 9): LegacyPage[] {
     return scorePage(b) - scorePage(a);
   });
 
-  return sorted.slice(0, Math.max(1, limit));
+  const selected: LegacyPage[] = [];
+  const usedPaths = new Set<string>();
+  const usedImages = new Set<string>();
+
+  for (const page of sorted) {
+    const imageKey = getImageFingerprint(page);
+    if (usedPaths.has(page.path)) continue;
+    if (imageKey && usedImages.has(imageKey) && selected.length < limit) continue;
+    selected.push(page);
+    usedPaths.add(page.path);
+    if (imageKey) usedImages.add(imageKey);
+    if (selected.length >= limit) return selected;
+  }
+
+  for (const page of sorted) {
+    if (usedPaths.has(page.path)) continue;
+    selected.push(page);
+    usedPaths.add(page.path);
+    if (selected.length >= limit) return selected;
+  }
+
+  return selected;
 }
 
 export function getPageGroups(content: SiteContent) {
@@ -251,6 +327,7 @@ function scorePage(page: LegacyPage) {
   let score = 0;
   score += page.text.length;
   if (page.heroImage) score += 150;
+  score += (page.contentImages || []).length * 25;
   if (page.updatedAt) score += 30;
   if (page.path === "/") score += 1000;
   return score;
@@ -258,6 +335,7 @@ function scorePage(page: LegacyPage) {
 
 function normalizePage(page: LegacyPage): LegacyPage {
   const rawText = cleanText(page.text);
+  const rawHtml = String(page.html || "").trim();
   const fallbackHtml = rawText
     ? rawText
         .split(/(?<=\.)\s+(?=[A-Z])/)
@@ -266,25 +344,85 @@ function normalizePage(page: LegacyPage): LegacyPage {
         .join("")
     : "<p>Fuer diese Seite liegt kein strukturierter Inhalt vor.</p>";
 
-  return {
+  const normalizedPath = normalizePath(page.path || "/");
+
+  const normalized: LegacyPage = {
     ...page,
     id: String(page.id || ""),
     url: String(page.url || ""),
-    path: normalizePath(page.path || "/"),
+    path: normalizedPath,
     title: cleanText(page.title),
     excerpt: cleanText(page.excerpt),
     text: rawText,
-    html: String(page.html || "").trim() || fallbackHtml,
-    heroImage: normalizeAsset(page.heroImage),
+    html: rawHtml || fallbackHtml,
+    heroImage: "",
+    contentImages: [],
     updatedAt: String(page.updatedAt || ""),
     category: cleanText(page.category || "page").toLowerCase() || "page",
   };
+
+  normalized.contentImages = extractImageCandidatesFromHtml(normalized.html).filter((value) => isUsefulContentImage(value));
+  normalized.heroImage = selectBestHeroImage(normalizedPath, page.heroImage, normalized.contentImages);
+  return normalized;
+}
+
+function selectBestHeroImage(pathname: string, heroImage: string, contentImages: string[]) {
+  const path = normalizePath(pathname);
+  const candidates = [normalizeAsset(heroImage), ...(contentImages || [])].filter(Boolean);
+  const best = [...candidates]
+    .filter((candidate) => isUsefulContentImage(candidate))
+    .sort((a, b) => imageCandidateScore(b) - imageCandidateScore(a))[0];
+  if (best) return best;
+
+  return FALLBACK_BY_PATH[path] || DEFAULT_FALLBACK_IMAGE;
+}
+
+function extractImageCandidatesFromHtml(html: string) {
+  const source = String(html || "");
+  if (!source) return [];
+
+  const out: string[] = [];
+  const push = (value: string) => {
+    const normalized = normalizeAsset(value);
+    if (!normalized) return;
+    if (out.includes(normalized)) return;
+    out.push(normalized);
+  };
+
+  for (const match of source.matchAll(/(?:src|data-src|data-lazy-src)=["']([^"']+)["']/gi)) {
+    push(String(match[1] || ""));
+  }
+
+  for (const match of source.matchAll(/srcset=["']([^"']+)["']/gi)) {
+    const set = String(match[1] || "").split(",");
+    for (const entry of set) {
+      const url = entry.trim().split(/\s+/)[0];
+      push(url);
+    }
+  }
+
+  return out;
+}
+
+function isUsefulContentImage(urlLike: string) {
+  return imageCandidateScore(urlLike) > 0;
 }
 
 function normalizeAsset(urlLike: string) {
   const raw = String(urlLike || "").trim();
   if (!raw) return "";
+  if (raw.startsWith("data:")) return "";
+
+  if (raw.startsWith("//")) {
+    return normalizeAsset(`https:${raw}`);
+  }
+
+  if (raw.startsWith("/wp-content/")) {
+    return `https://meienergy.de${raw}`;
+  }
+
   if (raw.startsWith("/legacy-assets/")) return raw;
+
   try {
     const url = new URL(raw);
     if (typed.hostAllowList?.includes(url.hostname.toLowerCase())) {
@@ -368,6 +506,32 @@ function parseDate(value: string) {
   if (!normalized) return 0;
   const epoch = Date.parse(normalized);
   return Number.isNaN(epoch) ? 0 : epoch;
+}
+
+function imageCandidateScore(urlLike: string) {
+  const value = String(urlLike || "").trim().toLowerCase();
+  if (!value) return -1000;
+  if (value.startsWith("data:")) return -1000;
+  if (BLOCKED_IMAGE_PATTERNS.some((pattern) => pattern.test(value))) return -1000;
+
+  let score = 0;
+  if (value.includes("/wp-content/uploads/") || value.includes("/legacy-assets/")) score += 40;
+  if (/\.(png|jpe?g|webp|avif|gif)(\?|$)/i.test(value)) score += 25;
+  if (/2024|2023|2022|2021|2020/.test(value)) score += 6;
+  if (/news|author|sauna|hantel|kurs|team|fitness|galerie|member|angebot|kontakt/.test(value)) score += 8;
+  if (/scaled|crop|thumbnail|150x150|100x100|64x64|32x32/.test(value)) score -= 16;
+  return score;
+}
+
+function getImageFingerprint(page: LegacyPage) {
+  const candidates = [page.heroImage, ...(page.contentImages || [])];
+  for (const candidate of candidates) {
+    const normalized = normalizeAsset(candidate);
+    if (!normalized) continue;
+    if (!isUsefulContentImage(normalized)) continue;
+    return normalized.toLowerCase();
+  }
+  return "";
 }
 
 function textToParagraphHtml(value: string) {

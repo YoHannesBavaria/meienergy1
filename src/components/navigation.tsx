@@ -23,21 +23,13 @@ export function Navigation({ menuItems }: Props) {
     const list: MenuLink[] = [];
     for (const item of menuItems) {
       const href = item.path || item.href;
+      if (href === "/library") continue;
       if (list.find((entry) => entry.href === href)) continue;
       list.push({
         key: `${item.label}-${href}`,
         label: item.label,
         href,
         external: item.external,
-      });
-    }
-
-    if (!list.find((item) => item.href === "/library")) {
-      list.push({
-        key: "library",
-        label: "Inhaltsindex",
-        href: "/library",
-        external: false,
       });
     }
 
@@ -52,13 +44,13 @@ export function Navigation({ menuItems }: Props) {
             <Image
               src="/legacy-assets/meienergy.de/wp-content/uploads/2021/09/NEU-Mei_Energy_Logo.png"
               alt="Mei Energy"
-              width={168}
-              height={54}
+              width={190}
+              height={56}
               className="brand-logo"
               priority
             />
           </span>
-          <span className="brand-sub">relaunch award edition</span>
+          <span className="brand-sub">Fitness & Gesundheit in Passau</span>
         </Link>
 
         <button

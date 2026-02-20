@@ -12,6 +12,7 @@ export type LegacyPage = {
   text: string;
   html: string;
   heroImage: string;
+  contentImages?: string[];
   updatedAt: string;
   category: string;
 };

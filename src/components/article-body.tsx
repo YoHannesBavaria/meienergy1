@@ -11,6 +11,8 @@ type ActiveImage = {
   alt: string;
 };
 
+const HOST = "https://meienergy.de";
+
 export function ArticleBody({ html }: Props) {
   const containerRef = useRef<HTMLDivElement | null>(null);
   const [activeImage, setActiveImage] = useState<ActiveImage | null>(null);
@@ -38,6 +40,10 @@ export function ArticleBody({ html }: Props) {
       image.loading = "lazy";
       image.classList.add("article-inline-image");
       image.setAttribute("decoding", "async");
+      if (isDecorativeImage(image.getAttribute("src") || "")) {
+        image.closest("figure")?.remove();
+        image.remove();
+      }
     });
 
     root.addEventListener("click", clickHandler);
@@ -84,22 +90,14 @@ function sanitizeLegacyHtml(input: string) {
 
   let html = raw;
 
-  html = rewriteWpAssetUrls(html);
+  html = normalizeAssetUrls(html);
 
-  // Remove executable/noisy blocks that are not needed in a static relaunch.
   html = html
     .replace(/<script[\s\S]*?<\/script>/gi, "")
     .replace(/<style[\s\S]*?<\/style>/gi, "")
     .replace(/<noscript[\s\S]*?<\/noscript>/gi, "")
     .replace(/<!--([\s\S]*?)-->/g, "");
 
-  // Drop legacy chrome/logo images that would pollute article content.
-  html = html.replace(
-    /<(a[^>]*>)?\s*<img[^>]*(mei[_-]?energy[_-]?logo|neu-mei[_-]?energy[_-]?logo|footer-logo|favicon)[^>]*>\s*(<\/a>)?/gi,
-    "",
-  );
-
-  // Neutralize legacy inline layout that caused broken widths and giant blank areas.
   html = html
     .replace(/\sstyle=("[^"]*"|'[^']*')/gi, "")
     .replace(/\swidth=("[^"]*"|'[^']*'|[^\s>]+)/gi, "")
@@ -108,31 +106,62 @@ function sanitizeLegacyHtml(input: string) {
     .replace(/\sdata-elementor-id=("[^"]*"|'[^']*')/gi, "")
     .replace(/\saria-hidden=("[^"]*"|'[^']*')/gi, "");
 
-  // Remove empty wrappers and repeated blank paragraphs.
   html = html
     .replace(/<(p|div|span)>(\s|&nbsp;|<br\s*\/?\s*>)*<\/\1>/gi, "")
-    .replace(/(<br\s*\/?\s*>\s*){3,}/gi, "<br /><br />");
+    .replace(/(<br\s*\/?\s*>\s*){3,}/gi, "<br /><br />")
+    .replace(/<img[^>]*(mei[_-]?energy[_-]?logo|neu-mei[_-]?energy[_-]?logo|footer-logo|favicon)[^>]*>/gi, "");
 
   return html.trim();
 }
 
-function rewriteWpAssetUrls(source: string) {
-  const hosts = ["meienergy.de", "www.meienergy.de"];
-  const protocols = ["https", "http"];
+function normalizeAssetUrls(source: string) {
   let html = source;
 
-  for (const protocol of protocols) {
-    for (const host of hosts) {
-      const origin = `${protocol}://${host}`;
-      const local = `/legacy-assets/${host}`;
-      html = html
-        .replaceAll(`src=\"${origin}/wp-content/`, `src=\"${local}/wp-content/`)
-        .replaceAll(`href=\"${origin}/wp-content/`, `href=\"${local}/wp-content/`)
-        .replaceAll(`data-src=\"${origin}/wp-content/`, `data-src=\"${local}/wp-content/`)
-        .replaceAll(`data-lazy-src=\"${origin}/wp-content/`, `data-lazy-src=\"${local}/wp-content/`)
-        .replaceAll(`${origin}/wp-content/`, `${local}/wp-content/`);
-    }
-  }
+  html = html
+    .replace(/="\/\/(www\.)?meienergy\.de\//gi, `="${HOST}/`)
+    .replace(/='\/\/(www\.)?meienergy\.de\//gi, `='${HOST}/`)
+    .replace(/="\/wp-content\//gi, `="${HOST}/wp-content/`)
+    .replace(/='\/wp-content\//gi, `='${HOST}/wp-content/`);
+
+  html = html.replace(/srcset=("[^"]*"|'[^']*')/gi, (full, quotedValue) => {
+    const quote = quotedValue.startsWith("'") ? "'" : '"';
+    const value = quotedValue.slice(1, -1);
+    const normalized = value
+      .split(",")
+      .map((entry: string) => {
+        const parts = entry.trim().split(/\s+/);
+        if (parts.length === 0) return "";
+        const [url, descriptor] = parts;
+        const normalizedUrl = normalizeOneUrl(url || "");
+        return descriptor ? `${normalizedUrl} ${descriptor}` : normalizedUrl;
+      })
+      .filter(Boolean)
+      .join(", ");
+
+    return `srcset=${quote}${normalized}${quote}`;
+  });
+
+  html = html.replace(/(?:src|href|data-src|data-lazy-src)=("[^"]*"|'[^']*')/gi, (full, quotedValue) => {
+    const quote = quotedValue.startsWith("'") ? "'" : '"';
+    const value = quotedValue.slice(1, -1);
+    const normalized = normalizeOneUrl(value);
+    return full.replace(quotedValue, `${quote}${normalized}${quote}`);
+  });
 
   return html;
+}
+
+function normalizeOneUrl(value: string) {
+  const url = String(value || "").trim();
+  if (!url) return url;
+  if (url.startsWith("data:")) return url;
+  if (url.startsWith("//")) return `https:${url}`;
+  if (url.startsWith("/wp-content/")) return `${HOST}${url}`;
+  return url;
+}
+
+function isDecorativeImage(source: string) {
+  const value = String(source || "").toLowerCase();
+  if (!value) return false;
+  return /(logo|favicon|submit-spin|borlabs|wpforms-lite|elementor|award\.png)/i.test(value);
 }

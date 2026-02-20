@@ -18,8 +18,8 @@ const manrope = Manrope({
 });
 
 export const metadata: Metadata = {
-  title: "Mei Energy Relaunch",
-  description: "Award-grade Relaunch der Mei Energy Website mit vollstaendiger Legacy-Content-Migration auf Next.js.",
+  title: "Mei Energy | Fitness & Gesundheit in Passau",
+  description: "Mei Energy in Passau: Kurse, Team, Angebote und persoenliche Betreuung fuer dein Training.",
 };
 
 export default async function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
