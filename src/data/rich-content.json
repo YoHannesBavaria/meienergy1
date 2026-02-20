@@ -1,0 +1,909 @@
+{
+  "generatedAt": "2026-02-19T21:19:15.946Z",
+  "source": "https://www.peaq.ch",
+  "menu": [
+    {
+      "label": "SAM4H",
+      "href": "https://www.peaq.ch/solutions/sam4h"
+    },
+    {
+      "label": "IOportal",
+      "href": "https://www.peaq.ch/solutions/ioportal"
+    },
+    {
+      "label": "Contact",
+      "href": "https://www.peaq.ch/contact"
+    },
+    {
+      "label": "Support",
+      "href": "https://service-desk.peaq.ch/help/en-us/23-support-resources"
+    },
+    {
+      "label": "Blog",
+      "href": "https://www.peaq.ch/blogs/index/"
+    }
+  ],
+  "routePaths": [
+    "/",
+    "/3DC",
+    "/authors/georgios-psaltopoulos",
+    "/authors/philip-kurmann",
+    "/authors/werner-lippert",
+    "/blogs/index",
+    "/blogs/index/index.html",
+    "/blogs/index/page/2/index.html",
+    "/blogs/index/page/3/index.html",
+    "/category/automation",
+    "/category/events",
+    "/category/ioportal",
+    "/category/peaq",
+    "/category/proactive-service",
+    "/category/ruby-on-rails",
+    "/category/sam4h",
+    "/category/service-portal",
+    "/contact",
+    "/disaster-recovery-for-Hitachi-IOportal",
+    "/happy-holidays",
+    "/HealthChecksVSP5000",
+    "/IOportal_Autumn_Update",
+    "/IOportal_BoxOverview_Graph",
+    "/IOportal_Summer_Update",
+    "/IOportal_Winter_Update",
+    "/IOportal-capacity-reloaded",
+    "/IOportal-meets-REST-API",
+    "/Log4shell",
+    "/meet-the-peaq-service-portal",
+    "/New_Major_IOportal_Relese_v8",
+    "/new-IOportal-feature-alerts",
+    "/new-IOportal-release",
+    "/new-IOportal-release-meet-the-cockpit",
+    "/new-sam4h-release-1.7",
+    "/new-sam4h-release-v1.5",
+    "/peaq-at-Hitacih-Vantara-Forum",
+    "/peaq-Hitach-Exchange-Bonn",
+    "/peaq-Hitach-Forum-Exchange2025",
+    "/peaq-Hitach-Forum-Vienna",
+    "/SAM4H-Trial_Licenses",
+    "/SAM4H-Webinar",
+    "/SAM4Hv2",
+    "/SAM4Hv2_1",
+    "/SAM4Hv2_2",
+    "/SAM4Hv2_3",
+    "/SAM4Hv2_4",
+    "/solutions/ioportal",
+    "/solutions/sam4h",
+    "/SVA_Open_House_2023",
+    "/the-IOportal-shines-in-a-new-design",
+    "/use-puma-to-deploy-your-rails-app-with-ssl",
+    "/which-dp-pool-will-fillup-next"
+  ],
+  "blogAliases": [
+    {
+      "path": "/blogs",
+      "page": 1
+    },
+    {
+      "path": "/blogs/index",
+      "page": 1
+    },
+    {
+      "path": "/blogs/index/index.html",
+      "page": 1
+    },
+    {
+      "path": "/blogs/index/page/2/index.html",
+      "page": 2
+    },
+    {
+      "path": "/blogs/index/page/3/index.html",
+      "page": 3
+    }
+  ],
+  "posts": [
+    {
+      "path": "/SAM4H-Webinar",
+      "slug": "SAM4H-Webinar",
+      "title": "Get Up to Speed with SAM4H 2.4 - Join Our Webinar",
+      "excerpt": "The latest SAM4H 2.4 release is here, bringing exciting new capabilities that make managing and monitoring your infrastructure even more efficient. If you want a quick overview of the highlights, improvements, and what’s coming next, join one of our two identical 30‑minute webinars.",
+      "dateLabel": "13 Nov 2025",
+      "dateIso": "2025-11-13",
+      "readTimeMinutes": 1,
+      "category": {
+        "name": "SAM4H",
+        "path": "/category/sam4h"
+      },
+      "author": {
+        "name": "Georgios Psaltopoulos",
+        "path": "/authors/georgios-psaltopoulos"
+      },
+      "heroImage": {
+        "src": "https://www.peaq.ch/assets/images/blog/shutterstock_2509721977.jpg",
+        "alt": "Get Up to Speed with SAM4H 2.4 - Join Our Webinar"
+      },
+      "bodyHtml": "<h2 id=\"get-up-to-speed-with-sam4h-24---join-our-webinar\">Get Up to Speed with SAM4H 2.4 - Join Our Webinar</h2>\n\n<p>The latest SAM4H 2.4 release is here, bringing exciting new capabilities that make managing and monitoring your infrastructure even more efficient. If you want a quick overview of the highlights, improvements, and what’s coming next, join one of our two identical 30‑minute webinars.</p>\n\n<p>In this compact and informative session, our experts will:</p>\n<ul>\n  <li>Present the core value proposition of SAM4H</li>\n  <li>Walk you through the key updates in version 2.4</li>\n  <li>Offer an exclusive glimpse at the roadmap ahead</li>\n  <li>Answer your questions live in an interactive Q&amp;A</li>\n</ul>\n\n<p>Choose the session that best fits your schedule and secure your spot today:</p>\n<ul>\n  <li>Wednesday, 26.11.2025, 16:00–16:30 (CET). <a href=\"https://events.teams.microsoft.com/event/a2ab6d08-482f-437e-a36e-48a616aa6090@e9d404e3-da03-4bd8-ba53-89a508e7a689\">Register here</a></li>\n  <li>Thursday, 27.11.2025, 9:30–10:00 (CET). <a href=\"https://events.teams.microsoft.com/event/07c532d4-afa1-429d-8c7a-e9749c604659@e9d404e3-da03-4bd8-ba53-89a508e7a689\">Register here</a></li>\n</ul>\n\n<p>Read more about the new release <a href=\"https://peaq.ch/SAM4Hv2_4\">here</a>. See you in the webinar!</p>"
+    },
+    {
+      "path": "/SAM4Hv2_4",
+      "slug": "SAM4Hv2_4",
+      "title": "SAM4H Release v2.4",
+      "excerpt": "SAM4H version 2.4 marks a major leap forward in enterprise storage management. Designed with direct input from administrators and presales engineers, this release brings over 100 improvements for automation, security, integration, and usability—enhancing control without sacrificing speed.",
+      "dateLabel": "03 Nov 2025",
+      "dateIso": "2025-11-03",
+      "readTimeMinutes": 3,
+      "category": {
+        "name": "SAM4H",
+        "path": "/category/sam4h"
+      },
+      "author": {
+        "name": "Philip Kurmann",
+        "path": "/authors/philip-kurmann"
+      },
+      "heroImage": {
+        "src": "https://www.peaq.ch/assets/images/blog/shutterstock_1390125509-lock_2000x1080.png",
+        "alt": "SAM4H Release v2.4"
+      },
+      "bodyHtml": "<p>SAM4H version 2.4 marks a major leap forward in enterprise storage management. Designed with direct input from administrators and presales engineers, this release brings over 100 improvements for automation, security, integration, and usability—enhancing control without sacrificing speed.</p>\n\n<h2 id=\"strengthened-security-and-governance\">Strengthened Security and Governance</h2>\n\n<p><strong>Four Eyes Principle:</strong> SAM4H 2.4 introduces a comprehensive approval workflow enforcing dual authorization for critical operations. Every request, approval, and rejection is logged with timestamps, identities, and full audit detail—supporting compliance with SOX, HIPAA, PCI-DSS, and similar frameworks.</p>\n\n<p><strong>SAML 2.0 Single Sign-On:</strong> Seamless integration with identity providers like Azure AD, Okta, and Ping Identity centralizes access control. Users sign in with corporate credentials, while IT teams gain automated provisioning, immediate revocation, and MFA enforcement.</p>\n\n<p><strong>Additional Enhancements:</strong> Role-based API access, account lockout policies, and privilege protections further harden SAM4H 2.4 against unauthorized access.</p>\n\n<h2 id=\"smarter-safer-automation\">Smarter, Safer Automation</h2>\n\n<p><strong>Replace WWN:</strong> Fully automates HBA replacement workflows—discovering, validating, and updating WWNs across configurations in minutes while maintaining audit logs and approval options.</p>\n\n<p><strong>Zero-Downtime Volume Expansion:</strong> Both GAD and HUR replication volumes can now be expanded online without resynchronization—supporting database growth and capacity changes with no service impact.</p>\n\n<p><strong>DRD to DRS Migration:</strong> Migrate to modern replication technology without data moves or downtime. Pre-checks, rollback options, and compatibility validation simplify the process.</p>\n\n<p><strong>Advanced Port Management:</strong> Administrators can now modify port speed, topology, and attributes directly through SAM4H with validation and optional approval workflows.</p>\n\n<h2 id=\"better-visibility-and-monitoring\">Better Visibility and Monitoring</h2>\n\n<p><strong>Snapshot Policy Dashboard:</strong> A new proactive view consolidates snapshot performance, success rates, alerts, and failure analytics. Trend data helps predict capacity needs and identify failing policies before backup windows are missed.</p>\n\n<p><strong>Replication &amp; Volume Reports:</strong> Enhanced filtering, performance metrics, replication flags, and CSV exports provide clear insights across large, multi-site environments.</p>\n\n<h2 id=\"broader-integration-and-api-power\">Broader Integration and API Power</h2>\n\n<p><strong>HPE XP Array Support:</strong> SAM4H now manages Hitachi-based HPE XP arrays, giving administrators a unified management interface.</p>\n\n<p><strong>REST API Expansion:</strong> Dozens of new endpoints—covering storage, host, replication, and job management—support Infrastructure-as-Code workflows and seamless integration with CI/CD pipelines or orchestration platforms like Ansible, VMware, and Kubernetes.</p>\n\n<p><strong>IOportal Agent Integration:</strong> SAM4H now includes full IOportal Agent Integration. Collect performance data from all your Hitachi Block Storage arrays using Export Monitor v1 or v2, and automatically upload it to peaq’s Cloud Monitoring Solution, IOportal. Deliver a seamless, unified monitoring experience across your Hitachi storage environment.</p>\n\n<h2 id=\"enhanced-user-experience\">Enhanced User Experience</h2>\n\n<p><strong>Volume Template Wizard:</strong> Set up basic volume templates through a user friendly wizzard, for quicker onboarding new installations.</p>\n\n<p><strong>Interface Improvements:</strong> Refined dark mode, responsive layouts, inline validation, and universal search make navigation faster and more accessible across devices.</p>\n\n<p><strong>Performance Gains:</strong> Database and frontend optimizations deliver faster load times, smoother tables, and quicker reporting, even in large environments.</p>\n\n<p><strong>Internationalization:</strong> Full UI translations now available in English, German, French, Spanish, and Portuguese, enabling global teams to work effortlessly in their preferred language.</p>\n\n<h2 id=\"snapshot--replication-advances\">Snapshot &amp; Replication Advances</h2>\n\n<p>Policy enhancements include flexible pool assignment, consistency group snapshots, customizable scheduling down to 15-minute intervals, and import/export for policy reuse. Replication enhancements support non-resync GAD migrations, continuous HUR protection during expansion, and microprocessor-based volume balancing.</p>\n\n<h2 id=\"infrastructure--reliability\">Infrastructure &amp; Reliability</h2>\n\n<p>Behind the scenes, SAM4H 2.4 introduces automatic background service health checks, better job scheduling via SolidQueue, TimescaleDB integration for faster time-based reporting, and improved installer reliability.</p>\n\n<h2 id=\"upgrade-and-compatibility\">Upgrade and Compatibility</h2>\n\n<p>Upgrading from SAM4H 2.3 is straightforward with minimal downtime. All existing integrations remain compatible, and new features like HPE XP support extend SAM4H’s enterprise reach.</p>\n\n<h2 id=\"why-sam4h-24-matters\">Why SAM4H 2.4 Matters</h2>\n\n<p>This release delivers measurable results:</p>\n\n<ul>\n  <li>Stronger governance with full auditability</li>\n  <li>Faster, error-free operations through automation</li>\n  <li>Broader storage and API integration</li>\n  <li>Improved visibility for proactive management</li>\n  <li>Lower operational costs through streamlined workflows</li>\n</ul>\n\n<p>For enterprises managing mission-critical storage, SAM4H 2.4 provides the balance of control, security, and speed needed for modern operations.</p>\n\n<hr />\n\n<p><em>SAM4H 2.4 is available now. Visit the <a href=\"https://service-portal.peaq.ch\">peaq Service Portal</a> to download the latest package.</em></p>"
+    },
+    {
+      "path": "/peaq-Hitach-Forum-Exchange2025",
+      "slug": "peaq-Hitach-Forum-Exchange2025",
+      "title": "peaq Powers Up Hitachi Exchange 2025 - Simplicity Meets Performance in Bonn",
+      "excerpt": "On July 2nd, 2025, the Kameha Grand Hotel in Bonn will host the Hitachi Vantara Exchange, a key event for IT professionals and industry leaders. This year, peaq is proud to be a main sponsor, highlighting its commitment to driving innovation and efficiency in enterprise IT.",
+      "dateLabel": "08 Apr 2025",
+      "dateIso": "2025-04-08",
+      "readTimeMinutes": 1,
+      "category": {
+        "name": "Events",
+        "path": "/category/events"
+      },
+      "author": {
+        "name": "Georgios Psaltopoulos",
+        "path": "/authors/georgios-psaltopoulos"
+      },
+      "heroImage": {
+        "src": "https://www.peaq.ch/assets/images/blog/hitachiexchange2025.jpg",
+        "alt": "peaq Powers Up Hitachi Exchange 2025 - Simplicity Meets Performance in Bonn"
+      },
+      "bodyHtml": "<p>On July 2nd, 2025, the Kameha Grand Hotel in Bonn will host the Hitachi Vantara Exchange, a key event for IT professionals and industry leaders. This year, peaq is proud to be a main sponsor, highlighting its commitment to driving innovation and efficiency in enterprise IT.</p>\n\n<h3 id=\"about-the-hitachi-vantara-exchange-2025\">About the Hitachi Vantara Exchange 2025</h3>\n\n<p>The Hitachi Vantara Exchange is a premier platform for exploring the latest in IT infrastructure, artificial intelligence, and sustainable digital strategies. The Partner Day on July 1st features networking, expert talks, and insights into the future of enterprise technology.</p>\n\n<h3 id=\"peaqs-exclusive-session-sam4h--maximum-performance-minimal-complexity\">peaq’s Exclusive Session: “SAM4H – Maximum Performance, Minimal Complexity”</h3>\n\n<p>A major highlight will be peaq’s session, <strong>“SAM4H – Maximum Performance, Minimal Complexity”</strong>, presented by Max Baumann, Head of Sales and Marketing at peaq. This talk will showcase how peaq’s SAM4H solution optimizes Hitachi storage management, delivering top performance while minimizing operational complexity.</p>\n\n<p>Key topics include:</p>\n\n<ul>\n  <li>Simplifying onboarding and daily operations for Hitachi storage</li>\n  <li>Real-world examples of efficiency gains and cost savings</li>\n  <li>The impact of automation and user-friendly interfaces in IT management</li>\n</ul>\n\n<h3 id=\"why-attend\">Why Attend?</h3>\n\n<p>By attending the event and peaq’s session, IT leaders will gain practical knowledge on:</p>\n\n<ul>\n  <li>Building efficient and secure IT infrastructures</li>\n  <li>Achieving operational excellence with less complexity</li>\n  <li>Leveraging modern tools for next-generation storage management</li>\n</ul>\n\n<h3 id=\"register\">Register</h3>\n\n<p>Sign up now and secure your spot at the <a href=\"https://liveevents.hitachivantara.com/ExchangeBonnpeaq\">Hitachi Vantara Exchange Event 2025</a>!</p>\n\n<p><strong>Mark your calendar for July 2nd, 2025, and join peaq at the Hitachi Vantara Exchange in Bonn for a day of learning, networking, and innovation.</strong></p>"
+    },
+    {
+      "path": "/peaq-Hitach-Forum-Vienna",
+      "slug": "peaq-Hitach-Forum-Vienna",
+      "title": "Meet us at the Hitachi Vantara Forum in Vienna!",
+      "excerpt": "<strong>Exciting News: peaq Sponsors Hitachi Vantara Forum 2025 in Vienna</strong>",
+      "dateLabel": "14 Feb 2025",
+      "dateIso": "2025-02-14",
+      "readTimeMinutes": 1,
+      "category": {
+        "name": "Events",
+        "path": "/category/events"
+      },
+      "author": {
+        "name": "Georgios Psaltopoulos",
+        "path": "/authors/georgios-psaltopoulos"
+      },
+      "heroImage": {
+        "src": "https://www.peaq.ch/assets/images/blog/Forum-Vienna-2025.jpg",
+        "alt": "Meet us at the Hitachi Vantara Forum in Vienna!"
+      },
+      "bodyHtml": "<p><strong>Exciting News: peaq Sponsors Hitachi Vantara Forum 2025 in Vienna</strong></p>\n\n<p>We’re thrilled to announce that peaq will be sponsoring the upcoming <a href=\"https://liveevents.hitachivantara.com/ForumVienna2025\">Hitachi Vantara Forum 2025</a> in Vienna, Austria. This prestigious event, scheduled for Thursday, April 10, 2025, promises to be a hub of cutting-edge technology insights and networking opportunities for IT professionals.</p>\n\n<h3 id=\"event-details\">Event Details</h3>\n\n<p>The Hitachi Vantara Forum 2025 will take place at ThirtyFive, Vienna’s highest event venue. Located on the 35th floor of the myhive! Twin Towers, attendees will enjoy not only 360-degree technical insights but also breathtaking panoramic views of the city.</p>\n\n<h3 id=\"our-contribution-innovative-storage-management-with-sam4h\">Our Contribution: Innovative Storage Management with SAM4H</h3>\n\n<p>As part of our sponsorship, peaq will be presenting a dedicated speaker slot focusing on “Innovative Storage Management with SAM4H.” We’re excited to share our expertise and showcase how SAM4H is revolutionizing storage management for Hitachi Block Storage Systems.</p>\n\n<h3 id=\"why-attend\">Why Attend?</h3>\n\n<p>The Hitachi Vantara Forum 2025 offers a unique opportunity to gain insights into crucial technology developments that can shape your company’s future. You’ll learn how to:</p>\n\n<ul>\n  <li>Increase operational efficiency and productivity</li>\n  <li>Improve the resilience of your infrastructure</li>\n  <li>Ensure 100% data availability</li>\n</ul>\n\n<p>Moreover, you’ll have the chance to network with colleagues from the IT industry and engage directly with experts in the field.</p>\n\n<h3 id=\"join-us-in-vienna\">Join Us in Vienna</h3>\n\n<p>We’re looking forward to meeting you at the Hitachi Vantara Forum 2025 in Vienna. This event promises to be an unforgettable experience, combining technical expertise with the charm of one of Europe’s most beautiful cities.</p>\n\n<p>Don’t miss this opportunity to learn about the latest advancements in storage management and how SAM4H can transform your Hitachi Block Storage Systems. See you in Vienna!</p>"
+    },
+    {
+      "path": "/SAM4H-Trial_Licenses",
+      "slug": "SAM4H-Trial_Licenses",
+      "title": "Introducing SAM4H Free Trial Licenses!",
+      "excerpt": "We’re excited to announce a seamless new way for you to experience the power of SAM4H, our innovative storage provisioning tool. With our newly launched website, <a href=\"https://try.sam4h.com\">try.sam4h.com</a>, you can now access a free 45-day trial license in just minutes!",
+      "dateLabel": "21 Nov 2024",
+      "dateIso": "2024-11-21",
+      "readTimeMinutes": 1,
+      "category": {
+        "name": "SAM4H",
+        "path": "/category/sam4h"
+      },
+      "author": {
+        "name": "Georgios Psaltopoulos",
+        "path": "/authors/georgios-psaltopoulos"
+      },
+      "heroImage": {
+        "src": "https://www.peaq.ch/assets/images/blog/sam4h-trial-licenses.png",
+        "alt": "Introducing SAM4H Free Trial Licenses!"
+      },
+      "bodyHtml": "<p>We’re excited to announce a seamless new way for you to experience the power of SAM4H, our \ninnovative storage provisioning tool. With our newly launched website, <a href=\"https://try.sam4h.com\">try.sam4h.com</a>, you \ncan now access a free 45-day trial license in just minutes!</p>\n\n<h3 id=\"heres-how-it-works\">Here’s How It Works</h3>\n\n<p>Getting started is simple:</p>\n\n<ol>\n  <li>\n    <p><strong>Fill Out a Short Form</strong></p>\n\n    <p>Provide your basic details along with up to three serial numbers of your storage arrays.</p>\n  </li>\n  <li>\n    <p><strong>Instant Access to Your Trial License</strong></p>\n\n    <p>Once the form is submitted, your free trial license will be generated instantly.</p>\n  </li>\n  <li>\n    <p><strong>Download SAM4H and Start Exploring</strong></p>\n\n    <p>Immediately download the HARP software and the trial license to get started.</p>\n  </li>\n</ol>\n\n<h3 id=\"full-functionality-we-have-you-covered\">Full Functionality, we have you covered</h3>\n\n<p>During the trial period, you’ll experience <strong>full functionality</strong> of SAM4H, enabling you to explore \nits robust storage provisioning capabilities. To help you hit the ground running, our team at \npeaq will provide limited <strong>support for installation and setup</strong>.</p>\n\n<h3 id=\"why-try-sam4h\">Why Try SAM4H?</h3>\n\n<p>SAM4H is designed to streamline your storage provisioning processes, delivering increased efficiency \nand reliability. This trial period offers the perfect opportunity to see how SAM4H can transform your \nstorage management with no commitment upfront.</p>\n\n<h3 id=\"ready-to-get-started\">Ready to Get Started?</h3>\n\n<p>Visit <a href=\"https://try.sam4h.com\">try.sam4h.com</a> now to claim your free trial license and discover \nwhy so many customers trust SAM4H for their storage provisioning needs.</p>\n\n<p>The process is fast, easy, and gives you full access to the tools you need to evaluate SAM4H. Don’t \nmiss this chance to see the future of storage provisioning in action!</p>"
+    },
+    {
+      "path": "/peaq-Hitach-Exchange-Bonn",
+      "slug": "peaq-Hitach-Exchange-Bonn",
+      "title": "Proud sponsor of Hitachi Vantara Exchange 2024!",
+      "excerpt": "We are excited to announce that peaq will be a proud sponsor of the upcoming Hitachi Vantara <a href=\"https://www.hitachivantara.com/go/hv-exchange-de24/\">Exchange 2024 event</a>, taking place in Bonn, Germany.",
+      "dateLabel": "03 Oct 2024",
+      "dateIso": "2024-10-03",
+      "readTimeMinutes": 1,
+      "category": {
+        "name": "Events",
+        "path": "/category/events"
+      },
+      "author": {
+        "name": "Georgios Psaltopoulos",
+        "path": "/authors/georgios-psaltopoulos"
+      },
+      "heroImage": {
+        "src": "https://www.peaq.ch/assets/images/blog/hitachiexchange2024.jpg",
+        "alt": "Proud sponsor of Hitachi Vantara Exchange 2024!"
+      },
+      "bodyHtml": "<p>We are excited to announce that peaq will be a proud sponsor of the upcoming Hitachi \nVantara <a href=\"https://www.hitachivantara.com/go/hv-exchange-de24/\">Exchange 2024 event</a>, taking place in Bonn, Germany.</p>\n\n<p>Join us on the 26th of November at the prestigious Kameha Grand Hotel, where we will showcase our cutting-edge solutions \nfor Hitachi Block Storage. This is a fantastic opportunity to explore how our innovations can enhance your storage \ninfrastructure and unlock new efficiencies.</p>\n\n<p>In the afternoon, don’t miss our session as part of the Alliance Talk Track, where we will dive into the topic of \n“Innovative Storage Management with SAM4H: From Customer Requirements to Success Stories.” We will be co-presenting \nalongside Dennis Seiffert from our valued partner, <a href=\"https://www.sva.de/en/partner/hitachi-vantara\">SVA GmbH</a>, to discuss real-world insights and success stories \nthat highlight the strength of our partnership and solutions.</p>\n\n<p>As we approach the close of 2024, we look forward to being part of yet another impeccably organized event by Hitachi \nVantara, and we are eager to connect with you in Bonn!</p>\n\n<p>Save the date—we will see you on November 26!</p>"
+    },
+    {
+      "path": "/SAM4Hv2_3",
+      "slug": "SAM4Hv2_3",
+      "title": "SAM4H Release v2.3",
+      "excerpt": "We are excited to unveil the latest release of SAM4H (Smart Automation Manager for Hitachi) version 2.3, packed with powerful new features and enhancements designed to streamline your Hitachi storage array management. SAM4H continues to evolve, making complex tasks simpler and more efficient. Here’s a closer look at what’s new in this release:",
+      "dateLabel": "26 Jun 2024",
+      "dateIso": "2024-06-26",
+      "readTimeMinutes": 3,
+      "category": {
+        "name": "SAM4H",
+        "path": "/category/sam4h"
+      },
+      "author": {
+        "name": "Philip Kurmann",
+        "path": "/authors/philip-kurmann"
+      },
+      "heroImage": {
+        "src": "https://www.peaq.ch/assets/images/blog/shutterstock_2372521091-Pegasus_2000x1080.jpg",
+        "alt": "SAM4H Release v2.3"
+      },
+      "bodyHtml": "<p>We are excited to unveil the latest release of SAM4H (Smart Automation Manager for Hitachi) version 2.3, packed with \npowerful new features and enhancements designed to streamline your Hitachi storage array management. SAM4H continues \nto evolve, making complex tasks simpler and more efficient. Here’s a closer look at what’s new in this release:</p>\n\n<h2 id=\"new-features\">New Features</h2>\n\n<h3 id=\"snapshot-management\">Snapshot Management</h3>\n\n<p>Managing snapshots has never been easier. With SAM4H 2.3, you can now:</p>\n\n<ul>\n  <li>Create snapshots: Securely capture the state of your storage volumes at any given time.</li>\n  <li>Mount and unmount snapshots: Easily access your snapshots or free up system resources when they are no longer needed.</li>\n  <li>Restore snapshots: Quickly revert to a previous state in case of data corruption or loss.</li>\n  <li>Delete snapshots: Clean up obsolete snapshots to optimize storage usage.</li>\n  <li>These capabilities enhance your disaster recovery and data protection strategies, ensuring your critical data is always safeguarded.</li>\n</ul>\n\n<h3 id=\"simplified-installer-and-onboarding-checklist\">Simplified Installer and Onboarding Checklist</h3>\n\n<p>Getting started with SAM4H is now more straightforward than ever. The new, user-friendly installer streamlines the \ninstallation process, while the onboarding checklist guides you through initial setup, ensuring you don’t miss any \ncritical steps.</p>\n\n<h3 id=\"journal-creation-through-volume-templates\">Journal Creation through Volume Templates</h3>\n\n<p>Automate and standardize your storage management workflows with volume templates that now support journal creation. \nThis feature ensures consistent configuration across your storage environment, saving time and reducing the risk of errors.</p>\n\n<h3 id=\"support-for-vsp-one-block-series\">Support for VSP One Block Series</h3>\n\n<p>We’re thrilled to announce that SAM4H 2.3 now includes support for the new VSP One Block series. This addition ensures \ncompatibility with Hitachi’s latest storage solutions, enabling you to leverage SAM4H’s powerful features with the \ncutting-edge VSP One Block technology.</p>\n\n<h2 id=\"enhancements\">Enhancements</h2>\n\n<h3 id=\"task-comments\">Task Comments</h3>\n\n<p>Stay organized and improve collaboration with the ability to add comments to each task. Whether you need to provide \ndetails about a change request or log important information for future reference, task comments keep your team informed \nand aligned.</p>\n\n<h3 id=\"rest-apis-for-deleting-luns-and-snapshot-management\">REST APIs for Deleting LUNs and Snapshot Management</h3>\n\n<p>Integration and automation capabilities have been significantly boosted with new REST APIs. You can now programmatically \ndelete Logical Unit Numbers (LUNs) and manage snapshots, allowing for seamless integration with your existing IT systems \nand processes.</p>\n\n<h3 id=\"completely-reworked-documentation\">Completely Reworked Documentation</h3>\n\n<p>We’ve reimagined our documentation from the ground up to better support you. The new documentation is comprehensive and \ncovers typical use cases, making it easier to find the information you need and implement best practices.</p>\n\n<h3 id=\"new-snapshot-and-replication-table-reports\">New Snapshot and Replication Table Reports</h3>\n\n<p>Gain deeper insights into your storage environment with the new snapshot report and replication table report. These \nreports provide detailed information about your snapshots and replication activities, helping you monitor and optimize \nyour storage operations.</p>\n\n<h3 id=\"spanish-translation\">Spanish Translation</h3>\n\n<p>To better serve our global user base, SAM4H 2.3 now includes a Spanish translation. This enhancement makes our software \nmore accessible to Spanish-speaking users, improving usability and reducing language barriers.</p>\n\n<h3 id=\"reworked-licensing-system\">Reworked Licensing System</h3>\n\n<p>Our licensing system has been overhauled to eliminate the need for system restarts when applying license changes. This \nimprovement reduces downtime and ensures a smoother user experience.</p>\n\n<h3 id=\"various-fixes\">Various Fixes</h3>\n\n<p>As always, we’ve included numerous fixes to enhance stability, performance, and usability. These improvements reflect\nour ongoing commitment to providing a robust and reliable management solution.</p>\n\n<h3 id=\"conclusion\">Conclusion</h3>\n\n<p>SAM4H 2.3 represents a significant step forward in storage management, offering new features and enhancements that \nsimplify operations, improve efficiency, and support a broader range of users. We’re excited for you to experience \nthese updates and look forward to your feedback.</p>\n\n<p>Upgrade to SAM4H 2.3 today and discover how it can transform your Hitachi storage management. For more details and to \naccess the updated documentation, visit our website or contact our support team.</p>\n\n<p>Stay tuned for more updates and innovations from the SAM4H team.</p>"
+    },
+    {
+      "path": "/SVA_Open_House_2023",
+      "slug": "SVA_Open_House_2023",
+      "title": "SVA Open House - Hitachi Vantara. peaq Showcases SAM4H and IOportal in Action",
+      "excerpt": "In a digital rendezvous tailored for a German-speaking audience, the “SVA Open House” seamlessly brought participants together. Hosted at the SVA studio, the event featured peaq’s transformative solutions—SAM4H and IOportal—presented to a captivated virtual audience.",
+      "dateLabel": "29 Nov 2023",
+      "dateIso": "2023-11-29",
+      "readTimeMinutes": 1,
+      "category": {
+        "name": "IOportal",
+        "path": "/category/ioportal"
+      },
+      "author": {
+        "name": "Georgios Psaltopoulos",
+        "path": "/authors/georgios-psaltopoulos"
+      },
+      "heroImage": {
+        "src": "https://www.peaq.ch/assets/images/blog/sva-open-house.png",
+        "alt": "SVA Open House - Hitachi Vantara. peaq Showcases SAM4H and IOportal in Action"
+      },
+      "bodyHtml": "<p>In a digital rendezvous tailored for a German-speaking audience, the “SVA Open House” seamlessly \nbrought participants together. Hosted at the SVA studio, the event featured peaq’s transformative \nsolutions—SAM4H and IOportal—presented to a captivated virtual audience.</p>\n\n<h4 id=\"virtual-presentation-in-the-sva-studio\">Virtual Presentation in the SVA Studio</h4>\n\n<p>The SVA studio became the online stage for presenters and participants, effortlessly connecting in \na virtual environment. peaq opted for a detailed presentation, introducing SAM4H and IOportal to the \naudience without the need for a grand unveiling.</p>\n\n<h4 id=\"agenda-dynamics-with-live-demonstrations\">Agenda Dynamics with Live Demonstrations</h4>\n\n<p>While physical labs were absent from the agenda, live demonstrations took center stage. Peaq guided attendees \nthrough SAM4H and IOportal, providing a close-up look at their functionalities and practical applications. \nThe virtual setting allowed for an immersive experience, showcasing the real-world impact of these innovative solutions.</p>\n\n<h4 id=\"access-the-session-videos\">Access the Session Videos</h4>\n\n<p>For those eager to revisit or catch up on the sessions, <a href=\"https://www.youtube.com/playlist?list=PLXAI-8D4q6ETn1zdF8kfeQs4O07TxKzLQ\" target=\"_blank\">all videos</a> \nare conveniently available online. Explore the insightful discussions, live demos, and customer \nsuccess stories that unfolded during the “SVA Open House.”</p>\n\n<ul>\n  <li>Watch the SAM4H Video:</li>\n</ul>\n\n<p><a href=\"https://www.youtube.com/watch?v=V8FsoHMn23s&amp;list=PLXAI-8D4q6ETn1zdF8kfeQs4O07TxKzLQ&amp;index=8\" target=\"_blank){:target=&quot;_blank\"><img src=\"https://www.peaq.ch/assets/images/blog/SVA_SAM4H.png\" alt=\"SAM4H Video\" /></a></p>\n\n<ul>\n  <li>Explore the IOportal Video:</li>\n</ul>\n\n<p><a href=\"https://www.youtube.com/watch?v=nDJAttvr_eI&amp;list=PLXAI-8D4q6ETn1zdF8kfeQs4O07TxKzLQ&amp;index=2\" target=\"_blank\"><img src=\"https://www.peaq.ch/assets/images/blog/SVA_IOportal.png\" alt=\"IOportal Video\" /></a></p>\n\n<h4 id=\"conclusion\">Conclusion</h4>\n\n<p>SVA’s “Open House - Hitachi Vantara” successfully united a German-speaking audience, \nleveraging the SVA studio as a hub for innovation. peaq’s SAM4H and IOportal presentations, \naccessible through the video library, offer a comprehensive understanding of their transformative \ncapabilities. In an era where virtual experiences redefine industry events, the “SVA Open House” \nstands as a testament to the adaptability and dynamism of the storage solutions landscape.</p>"
+    },
+    {
+      "path": "/IOportal_Autumn_Update",
+      "slug": "IOportal_Autumn_Update",
+      "title": "IOportal Autumn Update",
+      "excerpt": "Unlock the Full Potential of Your Hitachi Storage Systems with Hitachi IOportal: The Latest Release",
+      "dateLabel": "19 Sep 2023",
+      "dateIso": "2023-09-19",
+      "readTimeMinutes": 3,
+      "category": {
+        "name": "IOportal",
+        "path": "/category/ioportal"
+      },
+      "author": {
+        "name": "Georgios Psaltopoulos",
+        "path": "/authors/georgios-psaltopoulos"
+      },
+      "heroImage": {
+        "src": "https://www.peaq.ch/assets/images/blog/darkmode.png",
+        "alt": "IOportal Autumn Update"
+      },
+      "bodyHtml": "<p>Unlock the Full Potential of Your Hitachi Storage Systems with Hitachi IOportal: The Latest Release</p>\n\n<p>In the fast-evolving world of data storage and management, staying on top of your system’s performance and capacity utilization is crucial. peaq understands this, and that’s why we continuously strive to provide cutting-edge solutions to our customers. The latest release of Hitachi IOportal, the cloud-based Capacity and Performance Monitoring tool, is here to empower you like never before. Let’s dive into the exciting features and enhancements this release brings to the table.</p>\n\n<h4 id=\"a-fresh-and-revamped-user-interface\">A Fresh and Revamped User Interface</h4>\n\n<p>The first thing you’ll notice when you log into Hitachi IOportal is its fresh, redesigned user interface. This aesthetic makeover not only makes your experience more pleasant but also streamlines navigation, ensuring you can access the information you need with ease.</p>\n\n<h4 id=\"dark-mode-a-sight-for-sore-eyes\">Dark Mode: A Sight for Sore Eyes</h4>\n\n<p>For those who prefer working in low-light environments or simply appreciate a sleek, modern look, the addition of Dark Mode is a game-changer. It not only reduces eye strain but also adds a touch of sophistication to the user interface.</p>\n\n<h4 id=\"comprehensive-excel-capacity-report\">Comprehensive Excel Capacity Report</h4>\n\n<p>Hitachi IOportal has now introduced an Excel Capacity Report that spans the complete lifespan of your storage arrays. This in-depth report provides you with a holistic view of your storage capacity usage, enabling you to make informed decisions about scaling and resource allocation.</p>\n\n<h4 id=\"adr-pool-report\">ADR Pool Report</h4>\n\n<p>The all-new ADR pool report is a treasure trove of valuable data. It consolidates all relevant compression and deduplication Key Performance Indicators (KPIs) into one easily accessible report. This feature allows you to fine-tune your storage settings for optimal performance and efficiency.</p>\n\n<h4 id=\"enhanced-security-with-optional-2nd-factor-authentication\">Enhanced Security with Optional 2nd Factor Authentication</h4>\n\n<p>Data security is a top priority in today’s digital landscape. Hitachi IOportal recognizes this and offers optional second-factor authentication for logging in. This additional layer of security ensures that your sensitive storage data remains safe from unauthorized access.</p>\n\n<h4 id=\"subscribe-to-a-multitude-of-new-email-reports\">Subscribe to a Multitude of New Email Reports</h4>\n\n<p>Hitachi IOportal now allows users to subscribe to a wide range of email reports. Stay updated on the performance and capacity of your storage systems effortlessly, with detailed reports delivered directly to your inbox.</p>\n\n<h4 id=\"time-range-selector-for-time-series-graphics\">Time Range Selector for Time Series Graphics</h4>\n\n<p>Understanding your data over time is critical for informed decision-making. The new time range selector for time series graphics simplifies this process. With preset options for the most relevant time ranges, you can quickly access historical data.</p>\n\n<h4 id=\"streamlined-alert-emails\">Streamlined Alert Emails</h4>\n\n<p>In an effort to declutter your inbox, Hitachi IOportal has reduced the size of alert emails. You’ll receive the important information you need without unnecessary bulk, ensuring that you can respond swiftly to critical events.</p>\n\n<h4 id=\"rest-api-for-downloading-capacity-consumption-reports\">REST API for Downloading Capacity Consumption Reports</h4>\n\n<p>For subscribers of the respective service, Hitachi IOportal now offers a REST API for downloading capacity consumption reports. This API integration enhances your ability to integrate Hitachi IOportal into your existing systems, streamlining your capacity management workflow.</p>\n\n<p>In conclusion, the latest release of Hitachi IOportal is a significant step forward in helping customers maximize the potential of their Hitachi Storage systems. With a revamped user interface, enhanced reporting capabilities, improved security, and simplified data analysis, Hitachi IOportal empowers organizations to stay ahead in the ever-evolving landscape of data management.</p>\n\n<p>Don’t miss out on these exciting updates. Check out the latest version of Hitachi IOportal and unleash the full potential of your Hitachi Storage systems today! Stay connected, stay secure, and stay in control with Hitachi IOportal.</p>"
+    },
+    {
+      "path": "/SAM4Hv2_2",
+      "slug": "SAM4Hv2_2",
+      "title": "SAM4H Release v2.2",
+      "excerpt": "Today, SAM4H takes another leap forward with the unveiling of version 2.2 of the Smart Automation Manager for Hitachi. We are excited to present a release that not only enhances usability but also turbocharges your ability to implement storage changes swiftly and with unwavering precision. Let’s delve into what SAM4H v2.2 brings to the table.",
+      "dateLabel": "18 Sep 2023",
+      "dateIso": "2023-09-18",
+      "readTimeMinutes": 2,
+      "category": {
+        "name": "SAM4H",
+        "path": "/category/sam4h"
+      },
+      "author": {
+        "name": "Philip Kurmann",
+        "path": "/authors/philip-kurmann"
+      },
+      "heroImage": {
+        "src": "https://www.peaq.ch/assets/images/blog/cheetah.png",
+        "alt": "SAM4H Release v2.2"
+      },
+      "bodyHtml": "<h3 id=\"introducing-sam4h-v22\">Introducing SAM4H v2.2</h3>\n\n<p>Today, SAM4H takes another leap forward with the unveiling of version 2.2 of the Smart Automation Manager for Hitachi. \nWe are excited to present a release that not only enhances usability but also turbocharges your ability to implement \nstorage changes swiftly and with unwavering precision. Let’s delve into what SAM4H v2.2 brings to the table.</p>\n\n<p><strong>A Fresh Look &amp; Enhanced Functionality:</strong>\nUpon launching SAM4H V2.2, you will immediately notice the sleek and contemporary user interface makeover. \nOur interface has been modernized, and all tables are now equipped with intuitive filters. As part of this \nrevamp, we have completely redesigned the pool report, offering in-depth insights into the advanced data reduction \nmetrics of your Hitachi storage arrays.</p>\n\n<p><strong>Empowering Array Management:</strong>\nWith SAM4H v2.2, managing your Hitachi storage arrays has never been more efficient. You can seamlessly switch \nvolumes between pools, enhancing flexibility. Additionally, SAM4H now fully supports HMO88 for Multi VSM mappings, \nproviding a broader range of options for array management.</p>\n\n<p><strong>A Versatile IOportal Agent:</strong>\nOne of the standout features of SAM4H v2.2 is its ability to function as the IOportal Agent. It can replace your existing \nIOportal agent by exporting configuration and performance data and uploading them to the IOportal.</p>\n\n<h4 id=\"sam4h-v22-release-notes\">SAM4H v2.2 Release Notes</h4>\n\n<h5 id=\"general-improvements\">General improvements</h5>\n<ul>\n  <li><strong><em>IOportal Agent support (beta):</em></strong>\nSAM4H simplifies agent management by exporting configuration and performance data for easy IOportal integration</li>\n  <li><strong><em>Filters everywhere:</em></strong>\nEnjoy the convenience of filters across all tables, improving the overall user experience.</li>\n  <li><strong><em>Recurring Job Scheduling:</em></strong>\nNo tedious set up of cron jobs anymore: SAM4H integrates a new recuring job scheduling system which\nmakes installation and operation smoother than ever.</li>\n  <li><strong><em>Podman support:</em></strong>\nSAM4H is now Podman-friendly, expanding deployment options.</li>\n</ul>\n\n<h5 id=\"array-management\">Array Management</h5>\n<ul>\n  <li><strong><em>Volume Pool-Switch:</em></strong>\nSeamlessly switch volumes between pools, enhancing resource allocation.</li>\n  <li><strong><em>HMO88 Support:</em></strong>\nSAM4H is supporting HMO88 for multi VSM-Mappings.</li>\n</ul>\n\n<h5 id=\"reports\">Reports</h5>\n<ul>\n  <li><strong><em>ADR Reports:</em></strong>\nThe newly designed pool reports deliver comprehensive insights into advanced data reduction metrics, empowering \nyou with richer information.</li>\n</ul>\n\n<h5 id=\"gui\">GUI</h5>\n<ul>\n  <li><strong><em>Redesigned GUI:</em></strong>\nSAM4H gets a polished, modern design overhaul for a visually appealing and user-friendly experience.</li>\n</ul>\n\n<h5 id=\"rest-api\">REST-API</h5>\n<ul>\n  <li><strong><em>REST-API for unmapping LUNs:</em></strong>\nThe REST-API was extended by a the capability to Unmap LUNs.</li>\n  <li><strong><em>REST-API for listing storage arrays and host-groups:</em></strong>\nDiscover available storage arrays and host-groups effortlessly via the REST-API.</li>\n</ul>\n\n<h4 id=\"sam4h-your-ultimate-storage-management-solution\">SAM4H: Your ultimate storage management solution!</h4>\n<p>Unlock Efficiency: SAM4H v2.2 is the key to streamlining your storage management processes. With its intelligent \nautomation capabilities, you’ll not only save time but also reduce errors, ensuring your Hitachi storage \nenvironment operates at peak efficiency.</p>\n\n<p>Contact us now to learn more about how SAM4H can revolutionize your storage management experience. \nYour Hitachi infrastructure deserves the best, and that’s SAM4H – where smart automation meets Hitachi excellence.</p>"
+    },
+    {
+      "path": "/IOportal_BoxOverview_Graph",
+      "slug": "IOportal_BoxOverview_Graph",
+      "title": "New IOportal Box Overview Graph",
+      "excerpt": "Dear IOportal User,",
+      "dateLabel": "11 Apr 2023",
+      "dateIso": "2023-04-11",
+      "readTimeMinutes": 2,
+      "category": {
+        "name": "IOportal",
+        "path": "/category/ioportal"
+      },
+      "author": {
+        "name": "Werner Lippert",
+        "path": "/authors/werner-lippert"
+      },
+      "heroImage": {
+        "src": "https://www.peaq.ch/assets/images/blog/overview.png",
+        "alt": "New IOportal Box Overview Graph"
+      },
+      "bodyHtml": "<p>Dear IOportal User,</p>\n\n<p>it sometimes happens that we add a new graph to the IOportal Performance section. And we just did it again. Unlike other graphs the new graph does not display a timeseries of yet another resource of the storage system or attached ports or servers. This time the new graph comprises several resources in one graph, and this is new. From the implementation aspect this requires a different approach than for single resources graphs, which you may not find very interesting at all. But from the user point of view this opens a whole new set of possibilities to group resources together in order to visualise their correlation and dependencies between storage system resources or storage system resources and front-end load/performance directly. With this release we add a first new graph, the BoxOverview graph, which combines frontend load (Port IOPS and TPUT), frontend performance (SVCT and WTIM) together with the most critical backend resources of the storage system, namely parity group load, multiprocessor load, cache write pending and crossbar or interconnect switch load (where applicable).</p>\n\n<p>As this represents a lot of information we added a y-legend on the right-hand side so we can show independent metrics, like IOPS and TPUT, with different physical units, in a single plot. Also, we show average as well as max values for the backend resources, as there may be many instances, like many MP blades, with relatively moderate average values, but high max values potentially causing performance degradations or resource constraints.</p>\n\n<p>So hopefully the new BoxOverview graphs provides you with a good overview of the storage systems’ overall dynamical behaviour and helps you spot potential issues quicker. Of course, any performance issues are still detected by the IOportal’s anomaly radar, which guides you to the root cause(s) of any spotted anomaly. So please take a look at the new BoxOverview graph and let us know whether you find it useful and/or you have other resources/metrics in mind you would like to see plotted together.</p>\n\n<p>Have a great day!\nYour IOportal team</p>"
+    },
+    {
+      "path": "/IOportal_Winter_Update",
+      "slug": "IOportal_Winter_Update",
+      "title": "IOportal Winter Update - the elephant in the room!",
+      "excerpt": "The new version of IOportal is the elephant in the room: it never forgets and remembers timeseries that reach back years in the past… . These are the major and minor features of our Winter 2023 update:",
+      "dateLabel": "01 Feb 2023",
+      "dateIso": "2023-02-01",
+      "readTimeMinutes": 3,
+      "category": {
+        "name": "IOportal",
+        "path": "/category/ioportal"
+      },
+      "author": {
+        "name": "Georgios Psaltopoulos",
+        "path": "/authors/georgios-psaltopoulos"
+      },
+      "heroImage": {
+        "src": "https://www.peaq.ch/assets/images/blog/elephant.png",
+        "alt": "IOportal Winter Update - the elephant in the room!"
+      },
+      "bodyHtml": "<p>The new version of IOportal is the elephant in the room: it never forgets and remembers \ntimeseries that reach back years in the past… . These are the major and minor features \nof our Winter 2023 update:</p>\n\n<h4 id=\"limitless-timeseries-graphics\">Limitless Timeseries Graphics</h4>\n\n<p>Breaking with the tradition of monitoring tools that keep a limited amount of historical \ntimeseries data - usually spanning a short timerange - starting with this release the IOportal \ndoes not delete <strong>any</strong> historic data. Furthermore, it allows the users to create graphics \nwithin seconds that <strong>span multiple years</strong>! Currently, the earliest data available go back to May 2020. \nThis signature feature allows users of the IOportal to conduct (very) long-term analysis over any \nresource of interest and explore how its utilisation has evolved since the beginning of array was\ncommissioned in the IOportal. This unique possibility is especially helpful when investigating\nhardware upgrades, lifecycle considerations or slow-creeping performance issues.</p>\n\n<h4 id=\"much-improved-detail-selector\">Much Improved “Detail” selector</h4>\n\n<p>The “Storage Resources –&gt; Details” selector in the Performance Menu allows the user to select one \nor more entities of a given resource, e.g. different frontend ports. We greatly improved the usability of \nthe selector in various ways:</p>\n<ul>\n  <li>the selector does not freeze with every selected item, thus allowing the user to quickly select \nseveral entities without confusion</li>\n  <li>the new “select all” and “deselect all” buttons make it a breeze to filter the entities \nand select or deselect multiple entities at once</li>\n  <li>The servers are now displayed in categories as Active or Inactive. This greatly assists users \nwhen selecting a server, since they also obtain the crucial information whether the servers at\nhand are still active or not</li>\n  <li>The individual Ldevs shown for the Resource “Ldev Performance” now include the customer-define \nLdev nickname. This makes it possible to filter for specific nicknames and then select all results at once \nby means of the new “Select All” button</li>\n</ul>\n\n<h4 id=\"various-improvements\">Various Improvements</h4>\n\n<ul>\n  <li>“Dashboard KPI Trends” page: the dashboard KPI trends page received a significant performance \nboost for customers with many arrays</li>\n  <li>Improved Navigation: it is now possible to access the performance graphics of a server or Ldev \ndirectly through the “Capacity -&gt; Server Cluster Report” page. New icons are available next to \nthe server cluster name or the Ldev name(s), that directly navigate to the Performance \nMenu and trigger the creation of the respective graphic(s)</li>\n  <li>Improvements to interactive performance graphics: all timeseries graphics which display a single \nplot (e.g. MP, CWPR, etc.) now exhibit a description of the y-axis, identical to the description \nfound in the png version of the graphic</li>\n  <li>Ldev Nicknames: Ldev performance graphics now include the Ldev nickname in the title</li>\n</ul>\n\n<h4 id=\"adr-views-in-capacity-beta\">ADR Views in Capacity (beta)</h4>\n\n<p>Support for ADR in the IOportal has started. The first features - with more to come - are:</p>\n<ul>\n  <li>Automatic Pool categorisation: The IOportal automatically detects the capacity savings type \nof pools. Possible categories are: FMC pool, ADR (Compression), ADR (Compression \n&amp; Deduplication) or no capacity savings. The capacity savings type of a pool is always shown \nnext to the pool name on all affected pages/views. Note: in order to activate this feature the \nIOportal requires additional output from the Raidcom command. This may require an update of \nthe collector scripts - please contact support@peaq.ch for assistance.</li>\n  <li>The “Capacity -&gt; Storage Array Report” page has a new visualisation for ADR-enabled pools. \nThe capacity savings value is displayed, along with a computed logical view that corresponds\nto the capacity as seen by the consumers. Note: the ADR features are still work in progress \nand will improve over time</li>\n</ul>\n\n<h4 id=\"docker-version-for-on-premise-installations\">Docker Version for On-Premise Installations</h4>\n\n<p>Starting with this release our on-premise customers can enjoy the benefits of a containerised \nsolution: effortless installation and updates, even in fully isolated environments without internet access.</p>"
+    },
+    {
+      "path": "/happy-holidays",
+      "slug": "happy-holidays",
+      "title": "Wishes from peaq!",
+      "excerpt": "Dear peaq customers,",
+      "dateLabel": "23 Dec 2022",
+      "dateIso": "2022-12-23",
+      "readTimeMinutes": 1,
+      "category": {
+        "name": "peaq",
+        "path": "/category/peaq"
+      },
+      "author": {
+        "name": "Werner Lippert",
+        "path": "/authors/werner-lippert"
+      },
+      "heroImage": {
+        "src": "https://www.peaq.ch/assets/images/blog/xmas_2022.jpg",
+        "alt": "Wishes from peaq!"
+      },
+      "bodyHtml": "<p>Dear peaq customers,</p>\n\n<p>The heat of the long and dry summer is still in our clothes, and Christmas is already \naround the corner. After it got a little colder in the last days and even some snow fell \nin the mountains, the quiet hope for a snowy, romantic Christmas comes up. We wish you \nand your families, but especially the people in Eastern Europe and all over the world a \npeaceful Christmas and hopefully a peaceful year 2023.</p>\n\n<p>Your peaq team</p>"
+    },
+    {
+      "path": "/SAM4Hv2_1",
+      "slug": "SAM4Hv2_1",
+      "title": "SAM4H Release v2.1",
+      "excerpt": "Today we are proud to announce version 2.1 of the Smart Automation Manager For Hitachi, SAM4H. After introducing a new design in version 2.0, we further improved performance and polished the UI. Nevertheless, this release brings very useful new features like LUN editing, an extended full-text search and an enhanced dashboard. On top of that, the majority of the configuration options are now stored in the database, which enables changing parameters without the need to restart the application.",
+      "dateLabel": "23 Aug 2022",
+      "dateIso": "2022-08-23",
+      "readTimeMinutes": 3,
+      "category": {
+        "name": "SAM4H",
+        "path": "/category/sam4h"
+      },
+      "author": {
+        "name": "Philip Kurmann",
+        "path": "/authors/philip-kurmann"
+      },
+      "heroImage": {
+        "src": "https://www.peaq.ch/assets/images/blog/SAM4H_v2.1_dashboard.png",
+        "alt": "SAM4H Release v2.1"
+      },
+      "bodyHtml": "<p>Today we are proud to announce version 2.1 of the Smart Automation Manager For Hitachi, SAM4H. \nAfter introducing a new design in version 2.0, we further improved performance and polished the UI. \nNevertheless, this release brings very useful new features like LUN editing, an extended full-text \nsearch and an enhanced dashboard. On top of that, the majority of the configuration options are \nnow stored in the database, which enables changing parameters without the need to restart the application.</p>\n\n<p>The first published version of SAM4H in 2016 was already strictly designed along concrete customer \nrequirements. This paradigm has remained peaq’s approach to define and implement new features \nand functionalities. Now let us have a look at what SAM4H V2.1 has to offer.</p>\n\n<p>The first thing you notice when you start SAM4H V2.1 is the new dashboard: in the first row you \nsee all important capacity KPIs at a glance. The second diagram offers an interactive capacity overview \nbar chart over all arrays, while the following diagram shows the same capacity comparison in form of \na treemap chart. Clicking on an array either on the bar chart or treemap chart leads you to the \nnew array dashboard, which offers a drill-down into the capacity of the clusters of the selected storage \narray. The final chart on the dashboard page depicts a statistic of all tasks executed in SAM4H, \ngrouped by type, state or user for a user-defined time-range.</p>\n\n<p>Besides the mentioned features, SAM4H v2.1 offers following improvements:</p>\n\n<h3 id=\"sam4h-v21-release-notes\">SAM4H v2.1 Release Notes</h3>\n\n<h4 id=\"general-improvements\">General improvements</h4>\n<ul>\n  <li><strong>Extended full-text search:</strong>\nA global full-text search allows for searching and finding objects across the entire SAM4H landscape</li>\n  <li><strong><em>Config options in the database:</em></strong>\nThe content of the famous config.yml-file is now stored almost entirely in the database, allowing \nconfig-changes without the need to restart the application. The whole file is loaded automatically \nduring the first start after the migration.</li>\n  <li><strong><em>Multiple performance improvements for large installations:</em></strong>\nVarious performance improvements in the array management and the reports make SAM4H ready for \ninstallations with several dozens of storage arrays.</li>\n  <li><strong><em>Real dark mode:</em></strong>\nSAM4H v2.1 offers a completely redesigned dark mode.</li>\n</ul>\n\n<h4 id=\"array-management\">Array Management</h4>\n<ul>\n  <li><strong><em>Edit LUNs:</em></strong>\nEdit LUNs is finally here. This empowers SAM4H to change LUN-parameters of existing volumes.</li>\n  <li><strong><em>MP-Pinning:</em></strong>\nVolumes configured on the wrong MP can lead to cross-I/O which degrades the I/O-performance between \nthe server and the array. On VSP5000 series, SAM4H automatically determines the optimal MPU based on\nthe mapped ports and pins volumes to this MPU, thus optimising performance.</li>\n  <li><strong><em>Notes:</em></strong>\nEvery DpvConfigTemplate can now be extended with specific notes and information for the storage \noperators. Notes can also be added to the login screen, e.g. a disclaimer.</li>\n</ul>\n\n<h4 id=\"reports\">Reports</h4>\n<ul>\n  <li><strong><em>New dashboard:</em></strong>\nMore insights, thanks to the new and completely revamped dashboard.</li>\n  <li><strong><em>ALUA warnings in the Cluster LUN Report:</em></strong>\nThe Cluster LUN Report was extended with warnings about misconfigured sites and host-groups, \nwhich could potentially lead to false ALUA-configuration.</li>\n</ul>\n\n<h4 id=\"gui\">GUI</h4>\n<ul>\n  <li><strong><em>All forms displayed in modals:</em></strong>\nForms are displayed in modals. This preserves search results and makes the UI more streamlined.</li>\n</ul>\n\n<h4 id=\"rest-api\">REST-API</h4>\n<ul>\n  <li><strong><em>REST-API for hosts:</em></strong>\nThe REST-API was extended by a host-API. Now it is possible, to configure / read hosts through REST-calls.</li>\n</ul>\n\n<p>Already being established as the state-of-the-art storage management tool for Hitachi storage, \nSAM4H V2.1 brings along a whole set of exciting and useful new features that help facilitate storage \nadministrators’ life even more.</p>"
+    },
+    {
+      "path": "/IOportal_Summer_Update",
+      "slug": "IOportal_Summer_Update",
+      "title": "IOportal Summer Update",
+      "excerpt": "Our latest IOportal release brings several improvements above and under the hood, as well as a multitude of useful new features:",
+      "dateLabel": "21 Jun 2022",
+      "dateIso": "2022-06-21",
+      "readTimeMinutes": 3,
+      "category": {
+        "name": "IOportal",
+        "path": "/category/ioportal"
+      },
+      "author": {
+        "name": "Georgios Psaltopoulos",
+        "path": "/authors/georgios-psaltopoulos"
+      },
+      "heroImage": {
+        "src": "https://www.peaq.ch/assets/images/blog/treemap.png",
+        "alt": "IOportal Summer Update"
+      },
+      "bodyHtml": "<p>Our latest IOportal release brings several improvements above and under the hood, as well \nas a multitude of useful new features:</p>\n\n<h4 id=\"new-ports-and-ldev-groups-graphics\">New “Ports and Ldev Groups” graphics</h4>\n\n<p>Identifying which frontend ports are mapped to which servers and preparing the respective graphics \ncan be a cumbersome and time-consuming task. The new feature in the Performance menu, available as \n“Ports and Ldev Groups” under the <em>Storage Resources</em> menu, provides an easy and intuitive solution to \nthis problem. The user is presented with those port tuples that are currently mapped by server clusters. \nBy choosing one such tuple, the user obtains performance graphics of all involved ports as well as \nof all server clusters that have mapped the selected port tuple, along with a top10 server graphic. \nThis time-saving feature makes root-cause analysis even faster and easier!</p>\n\n<h4 id=\"new-automatic-time-resolution-in-performance-graphics\">New automatic time resolution in performance graphics</h4>\n\n<p>So far, users could choose the desired time resolution for performance graphics, amongst \n1 min, 5 min and 1 hour. For practical reasons, the IOportal retains data with low resolution for \nshorter periods of time. Data is retained indefinitely for 1 hour resolution. Hence, it could \nhappen that the user chose a time resolution in combination with a time range where data is not \navailable. Furthermore, when creating time series graphics over long periods of time, e.g. several \nweeks or months, it is important to switch to the largest available resolution.\nIn our latest release, all this is handled automatically in the best possible manner. The user can leave \nthe resolution switch to “auto” and he will always get time series graphics in the best available \nresolution, without minding the details.</p>\n\n<h4 id=\"compare-any-two-graphics-side-by-side\">Compare any two graphics side-by-side</h4>\n\n<p>During a root-cause-analysis it is common to look for time correlation amongst different resources \nand metrics. Looking for specific time ranges across different graphics is tedious and error-prone. \nHowever, the user can now choose any two graphics and view them next to each other. Furthermore, \nthe crosshair lines when hovering over a plot are synchronised across both graphics, making it \neasier than ever to compare different plots.</p>\n\n<h4 id=\"new-server-clusters-tree-map-view\">New Server Clusters Tree Map View</h4>\n\n<p>The Server Clusters report now includes a new tree map graphic that provides an overview \nof all server clusters of the array, scaled according to their relative allocated or used \ncapacity. A tabular representation, that can be downloaded in spread sheet format,\ncomplements the tree map and makes it easy to see all server cluster at a glance. \nFurthermore, the tree map acts as a navigation element and makes it easy to select a \nserver cluster and see its details below the tree map graphic.</p>\n\n<h4 id=\"new-port-load-imbalance-alerts\">New Port Load Imbalance Alerts</h4>\n\n<p>The throughput of ports pairs (e.g. CL1-A and CL2-A) is expected to be more or less identical \nunder nominal conditions, where multipathing software splits the traffic equally between ports. \nImbalanced ports are a common reason for performance issues or inefficiencies and require investigation. \nThe new “Port Load Imbalance Alert” automatically monitors the throughput of all port pairs during \nthe previous day and alerts the user when significant load imbalances are detected.</p>\n\n<h4 id=\"new-pool-thresholds-alerts\">New Pool Thresholds Alerts</h4>\n\n<p>Pool alerts have been part of the IOportal for several years. The threshold values were fixed \nand corresponded to Hitachi best practices, i.e. warning above 70% and risk above 85%. However, \nsince each pool is utilised differently by our customers, we now use the custom threshold values \nthat are defined on a per-pool basis by the customer himself in their management software. These custom \nthresholds are made available to the IOportal along with the capacity data (HORCM) \nand are henceforth used for driving the pool alerts, i.e. customers are only alerted when a pool\ncrosses the threshold that they themselves have defined. We are confident that the new solution will \nprove more useful and less intrusive.</p>"
+    },
+    {
+      "path": "/HealthChecksVSP5000",
+      "slug": "HealthChecksVSP5000",
+      "title": "IOportal Proactive Service for VSP 5000 - optimise through transparency",
+      "excerpt": "The <a href=\"https://hitachi-ioportal.com/downloads/proactive-service-flyer.pdf\">IOportal Proactive Service</a> has been assisting Hitachi Enterprise storage systems customers to get the most out of their arrays for years. Based on the IOportal Cloud Service, it offers customers wide-ranging support to facilitate the daily work but also to facilitate recurring tasks that impose additional workload. The periodic <em>Health Checks</em>, part of the Proactive Service, are based on a set of graphs specifically designed for this purpose, focussing on long term trends and slow creeping performance degradations. The graphs together with expert’s comments are compiled in the health check report, which is presented and discussed preferably face-to-face on customer premises, or otherwise remotely. The goal of the service is to <strong>identify and mitigate</strong> resource constraints/bottlenecks/saturation before they impact application performance and/or increase operational risk. The customer benefits from <strong>improved and stabilised I/O performance</strong> during the life-cycle of his systems, <strong>reduced operational risk</strong> and <strong>increased IT efficiency</strong> through optimised used of the available resources.",
+      "dateLabel": "17 Jun 2022",
+      "dateIso": "2022-06-17",
+      "readTimeMinutes": 2,
+      "category": {
+        "name": "Proactive Service",
+        "path": "/category/proactive-service"
+      },
+      "author": {
+        "name": "Georgios Psaltopoulos",
+        "path": "/authors/georgios-psaltopoulos"
+      },
+      "heroImage": {
+        "src": "https://www.peaq.ch/assets/images/blog/Tree_shutterstock_81856345.png",
+        "alt": "IOportal Proactive Service for VSP 5000 - optimise through transparency"
+      },
+      "bodyHtml": "<p>The <a href=\"https://hitachi-ioportal.com/downloads/proactive-service-flyer.pdf\">IOportal Proactive Service</a> \nhas been assisting Hitachi Enterprise storage systems customers to get the most \nout of their arrays for years. Based on the IOportal Cloud Service, it offers \ncustomers wide-ranging support to facilitate the daily work but also \nto facilitate recurring tasks that impose additional workload. The \nperiodic <em>Health Checks</em>, part of the Proactive Service, are based \non a set of graphs specifically designed for this purpose, \nfocussing on long term trends and slow creeping performance \ndegradations. The graphs together with expert’s comments are \ncompiled in the health check report, which is presented and discussed \npreferably face-to-face on customer premises, or otherwise remotely.\nThe goal of the service is to <strong>identify and mitigate</strong> resource constraints/bottlenecks/saturation \nbefore they impact application performance and/or increase operational risk. \nThe customer benefits from <strong>improved and stabilised I/O performance</strong> during\nthe life-cycle of his systems, <strong>reduced operational risk</strong> and <strong>increased\nIT efficiency</strong> through optimised used of the available resources.</p>\n\n<p>Our latest upgrade to the Health Checks service focuses on the novel\narchitecture of <strong>VSP 5000 systems</strong>. The latest high-end systems from Hitachi\ncome in different configurations, VSP 5100/5200, VSP 5500/5600 2N, 4N and 6N, \nand facilitate IO traffic between nodes via the novel Hitachi Accelerated \nFabric. The departure from the crossbar architecture of older high-end systems\ncomes with new chances as well as challenges.</p>\n\n<p>Operating and optimising VSP 5000 systems requires understanding how<br />\nthe load is distributed amongst different CBX Pairs and controllers, as well\nas how the resources of different CBX Pairs and controllers are utilised. \nThe new architecture suggests that different path configurations experience\ndifferent latencies and, hence, understanding the potential front-end cross and \nfront-end straight scenarios becomes important to those customers that \nstrive for the best performance in the most challenging environments.</p>\n\n<p>The new peaq analysis tools take up the challenge and decompose all relevant KPIs \nin the respective CBX Pairs (or controller failover pairs), thus offering a \ntransparent view of the VSP 5000 internals. The multitude\nof graphs that are specifically developed for the Health Check service\nare adapted to account for this new decomposition and offer a deeper \nunderstanding of the system operation. Automated tools analyse the\nconfiguration paths of all volumes and all servers, thus identifying the exact \nextent of front-end cross I/Os, as well as those cases where optimisation is \npossible, recommended or even required. With these new tools in our health check\narsenal, the customer gets a deeper understanding of his operations, while peaq\ncan offer fine-grained improvement suggestions for optimising performance, \nreducing operational risk and increasing IT efficiency.</p>\n\n<p>The new capabilities of the Health Check Service, akin to an\nfMRI image of VSP 5000 systems, enable our customers to truly\nget the most out of their Hitachi Enterprise Storage investment, even more so\nwith VSP 5000 systems!</p>\n\n<p>Your peaq team</p>"
+    },
+    {
+      "path": "/Log4shell",
+      "slug": "Log4shell",
+      "title": "Log4Shell vulnerability - peaq products not affected",
+      "excerpt": "The recently revealed security vulnerability Log4Shell (CVE-2021-44228) has drawn a lot of attention and scrutiny from IT departments, trying to investigate to what extent their organisation is exposed. peaq has also received numerous inquiries regarding the vulnerability of IOportal and SAM4H.",
+      "dateLabel": "14 Dec 2021",
+      "dateIso": "2021-12-14",
+      "readTimeMinutes": 1,
+      "category": {
+        "name": "SAM4H",
+        "path": "/category/sam4h"
+      },
+      "author": {
+        "name": "Philip Kurmann",
+        "path": "/authors/philip-kurmann"
+      },
+      "heroImage": {
+        "src": "https://www.peaq.ch/assets/images/blog/log4shell.png",
+        "alt": "Log4Shell vulnerability - peaq products not affected"
+      },
+      "bodyHtml": "<p>The recently revealed security vulnerability Log4Shell (CVE-2021-44228) has drawn a lot of attention and scrutiny from IT departments, trying to investigate to what extent their organisation is exposed. peaq has also received numerous inquiries regarding the vulnerability of IOportal and SAM4H.</p>\n\n<p>We would like to inform our customers and partners that none of our products are written in Java and also none of them are using Apache. Thanks to these facts, our products <strong>are not affected</strong> by the CVE-2021-44228 Log4Shell vulnerability.</p>\n\n<p>The only third party dependency in software that is written in Java is Elasticsearch (used by SAM4H). But due to the fact, that Elasticsearch is using the Java Security Manager, it is not affected by Log4Shell: <a href=\"https://xeraa.net/blog/2021_mitigate-log4j2-log4shell-elasticsearch/\" target=\"_blank\">https://xeraa.net/  blog/2021_mitigate-log4j2-log4shell-elasticsearch/</a></p>\n\n<p>In case you or your security department require further details, do not hesitate to contact us.</p>\n\n<p>Your peaq team</p>\n\n<h3 id=\"update-2022-09-11\">Update 2022-09-11</h3>\n\n<p>SAM4H release 2.1.1 is shipped with Elasticsearch v7.17.6. According to the following Elasticsearch post, all Log4j-vulnerabilities should be fixed now: <a href=\"https://www.elastic.co/de/blog/new-elasticsearch-and-logstash-releases-upgrade-apache-log4j2\" target=\"_blank\">https://www.elastic.co/de/blog/new-elasticsearch-and-logstash-releases-upgrade-apache-log4j2</a></p>"
+    },
+    {
+      "path": "/New_Major_IOportal_Relese_v8",
+      "slug": "New_Major_IOportal_Relese_v8",
+      "title": "New major IOportal Release V8",
+      "excerpt": "Only 2 months after announcing SAM4H V2 today we are pleased to announce IOportal V8, the state-of-the-art capacity and performance workbench for Hitachi’s block storage systems. From a total reimplementation of the engine - only perceivable by the user as a substantial gain in graphic generation speed - to the new and revolutionary Anomaly Detection System, almost no part of the IOportal remained untouched.",
+      "dateLabel": "17 Nov 2021",
+      "dateIso": "2021-11-17",
+      "readTimeMinutes": 2,
+      "category": {
+        "name": "IOportal",
+        "path": "/category/ioportal"
+      },
+      "author": {
+        "name": "Werner Lippert",
+        "path": "/authors/werner-lippert"
+      },
+      "heroImage": {
+        "src": "https://www.peaq.ch/assets/images/blog/anomaly_radar.png",
+        "alt": "New major IOportal Release V8"
+      },
+      "bodyHtml": "<p>Only 2 months after announcing SAM4H V2 today we are pleased to announce IOportal V8, \nthe state-of-the-art capacity and performance workbench for Hitachi’s block storage \nsystems. From a total reimplementation of the engine - only perceivable by the user \nas a substantial gain in graphic generation speed - to the new and revolutionary \nAnomaly Detection System, almost no part of the IOportal remained untouched.</p>\n\n<p>While preserving all the strong features of the IOportal the users are familiar with \nand love for their intuitive use and unparalleled insight into Hitachi storage arrays \ndynamical behavior we added several new views and dashboards guiding the user from her/his \nlogon to the IOportal to any anomaly detected by our smart, AI based Anomaly Radar revealing \nthe root cause of performance degradations and resource constraints/bottlenecks within a few clicks.</p>\n\n<div class=\"responsive-image\">\n    <img class=\"responsive-image__placeholder\" src=\"https://www.peaq.ch/assets/resized/320/major_features-IOportal.png\" />\n    <div class=\"responsive-image__delayed\" data-src=\"https://www.peaq.ch/assets/resized/{width}/major_features-IOportal.png\"></div>\n</div>\n\n\n\n<p>Whether you work from a laptop or workstation or any mobile device (tablet and/or mobile \nphone) the new appearance of the IOportal V8 adapts itself to your device and allows you \nto navigate and enjoy the graphs and reports with the same ease of use and the same level \nof presentation quality.</p>\n\n<h3 id=\"ioportal-v80-release-notes\">IOportal v8.0 Release Notes</h3>\n\n<h4 id=\"uiux\">UI/UX</h4>\n<p>Improved Support for mobile Devices: Improve navigation and graph presentation for improved user experience.</p>\n\n<h4 id=\"performance-analysis\">Performance Analysis</h4>\n\n<ul>\n  <li><strong>Anomaly Radar</strong>: Leverage an AI based anomaly detection algorithm to highlight abnormal storage \nsystem behavior and guide the user automatically to the next step in the root cause identification process.</li>\n  <li><strong>Storage Array Dashboard</strong>: Provide KPI values for a user selectable date and the past 90 days. \nAlso provide additional valuable information to accelerate root cause analysis.</li>\n  <li><strong>Server/Cluster Concept</strong>: The new concept allows to unambiguously distinguish between different servers/clusters \nand takes varying Lun configuration (over time) into account when creating performance graphs.</li>\n  <li><strong>Ldev Group Aggregation</strong>: Based on the new Server / Cluster concept the Ldev (Logical Device) data aggregation \nwas completely redesigned to be more flexible. It handles servers / clusters, pools and Mainframe Control Units.</li>\n  <li><strong>Improved Graphic Performance</strong>: Depending on the time resolution (average interval) and the length of the time \nrange the performance of the graph creation process was improved by a factor 2 – 5.</li>\n  <li><strong>60 sec time resolution</strong>: 60 sec time resolution (average interval) was added for all performance graphs for \nthe past 14 days data and a time range less than or equal to 24 hours. For longer time ranges the IOportal automatically \nswitches to longer resolution.</li>\n</ul>\n\n<h4 id=\"storage-array-comparison\">Storage Array Comparison</h4>\n<ul>\n  <li><strong>Workload / Performance / Resource Utilisation</strong>: Provide direct comparison of customer’s storage arrays for workload, \nperformance and resource utilisation based daily aggregated data for a user selectable date.</li>\n</ul>\n\n<h4 id=\"capacity-view\">Capacity View</h4>\n<ul>\n  <li>Historical Values for Ldevs and Ldev Groups:</li>\n  <li>Server / Cluster Report:</li>\n</ul>\n\n<h4 id=\"miscellaneous\">Miscellaneous</h4>\n<ul>\n  <li>Top10 WWN Performance Graph: Reduce number of WWN graphs by grouping IOPS, TPUT and Response time into \na standard Top10 chart adding Worktime.</li>\n  <li>Improved CWPR Performance Graph: Reduce number of CWPR graphs by incorporating all Cache blades into a single graph.</li>\n</ul>\n\n<p>The IOportal has continuously been improved over the past 10 years since its inception and has kept setting \nnew levels of storage system capacity and performance analysis that helped customers leverage their Hitachi \nstorage systems to achieve the highest possible business value.</p>"
+    },
+    {
+      "path": "/SAM4Hv2",
+      "slug": "SAM4Hv2",
+      "title": "New Major SAM4H Release v2.0",
+      "excerpt": "Today we are proud to announce the new major release V2 of the Smart Automation Manager For Hitachi, SAM4H. After the successful 3DC implementation in 2020, the much awaited for support for 3 Data Center (3DC) replications, in 2021 we exclusively focussed on specific customer requirements, which help facilitate each storage administrators life. peaq has proven over the years that the company is strong enough to compete with major players when it comes to developing storage management tools and yet light enough to sometimes outperform them.",
+      "dateLabel": "15 Sep 2021",
+      "dateIso": "2021-09-15",
+      "readTimeMinutes": 3,
+      "category": {
+        "name": "SAM4H",
+        "path": "/category/sam4h"
+      },
+      "author": {
+        "name": "Philip Kurmann",
+        "path": "/authors/philip-kurmann"
+      },
+      "heroImage": {
+        "src": "https://www.peaq.ch/assets/images/blog/SAM4Hv2_dashboard.png",
+        "alt": "New Major SAM4H Release v2.0"
+      },
+      "bodyHtml": "<p>Today we are proud to announce the new major release V2 of the Smart Automation Manager For Hitachi, SAM4H. After the successful 3DC implementation in 2020, the much awaited for support for 3 Data Center (3DC) replications, in 2021 we exclusively focussed on specific customer requirements, which help facilitate each storage administrators life. peaq has proven over the years that the company is strong enough to compete with major players when it comes to developing storage management tools and yet light enough to sometimes outperform them.</p>\n\n<p>The first published version of SAM4H in 2016 already strictly followed concrete customer requirements and this paradigm has remained peaq’s approach to define and implement new features and functionalities. Now let’s have a look at what SAM4H V2 has to offer.</p>\n\n<p>The first thing you’ll notice when you start SAM4H V2 is the totally new user interface (UI/UX) layout. The new layout not only appears in a nicer outfit and groups corresponding features better together than the previous version, it also comes with new underlying libraries providing more flexibility for user interactions. As an example, a user may execute a full text search on the task list and filter by any object. As another example, the user can now trigger actions for an interactively selected number of objects directly out of the Cluster LUN report.</p>\n\n<div class=\"responsive-image\">\n    <img class=\"responsive-image__placeholder\" src=\"https://www.peaq.ch/assets/resized/320/SAM4Hv2_major_features.png\" />\n    <div class=\"responsive-image__delayed\" data-src=\"https://www.peaq.ch/assets/resized/{width}/SAM4Hv2_major_features.png\"></div>\n</div>\n\n\n\n<p>The most important new features in SAM4H V2 can be grouped together in 4 categories as shown above. Besides them, there is a whole zoo of minor improvements, which cannot all be covered here. In the remaining part of this blog let us try and describe all the most exciting and most enhanced features from the release notes of SAM4H V2.</p>\n\n<h3 id=\"sam4h-v20-release-notes\">SAM4H v2.0 Release Notes</h3>\n\n<h4 id=\"uiux\">UI/UX</h4>\n<ul>\n  <li><strong>New design:</strong>\nBesides a cleaner and more modern look with lots of usability improvements, the new design is now fully responsive and works on tablets.</li>\n  <li><strong>Full-text search the timeline:</strong>\nThe array management timeline, displaying all tasks, is now searchable by a full-text search engine powered by Elasticsearch.</li>\n</ul>\n\n<h4 id=\"array-management\">Array Management</h4>\n<ul>\n  <li><strong>GAD online resize:</strong>\nGAD online resize is now supported and can be enabled/disabled for each storage array individually.</li>\n  <li><strong>Label WWNs and LUNs:</strong>\nThe long awaited feature of labeling WWNs and LUNs after creation of LUNs / HostGroups is here.</li>\n  <li><strong>QoS for LUNs:</strong>\nSAM4H will now set QoS settings for LUNs, all powered by our unique config template approach. QoS values are computed dynamically taking LUN sizes into account.</li>\n  <li><strong>Group capacity quota:</strong>\nGroups already enabled creating tenants in SAM4H. Now, group capacity quotas leverage this approach even more by specifying capacity limits for tenant groups.</li>\n</ul>\n\n<h4 id=\"host-group-management\">Host Group Management</h4>\n<ul>\n  <li><strong>New host objects:</strong>\nThis feature simplifies creating new host-groups significantly and brings SAM4H usability to the next level.</li>\n  <li><strong>Fabric support &amp; new cluster/fabric report:</strong>\nThroughout the whole SAM4H UI, fabrics are now visible and help identifying the right ports.</li>\n</ul>\n\n<h4 id=\"reports-v2\">Reports V2</h4>\n<ul>\n  <li><strong>Dashboard:</strong>\nA new dashboard view helps getting an overview of your Hitachi storage environment.</li>\n  <li><strong>Initiate actions directly from the Cluster LUN report:</strong>\nFrom now on, you can directly trigger actions from the Cluster LUN Report. Thanks to all the detailed information available on this report, this is the best place for selecting the proper LUNs and triggering actions in-place.</li>\n  <li><strong>Presets for volume report filters:</strong>\nThe volume report filters were improved to make it even more easy, finding what you are looking for. Thanks to the newly introduced presets, you are able to store\nfilters and retreive them instantly at any time.</li>\n  <li><strong>Scheduled reports:</strong>\nEvery single report can now be scheduled and delivered into your inbox. You even have the choice between inline HTML and PDF.</li>\n  <li><strong>Default size capacity units:</strong>\nThe improved user settings dialogue now offers an option to preset the capacity units. Once set, every report is displayed in the chosen unit size.</li>\n</ul>\n\n<p>Already being established as the state-of-the-art storage management tool for Hitachi storage, SAM4H V2 brings along a whole set of exciting and useful features that help facilitate storage administrators’ life even more.</p>"
+    },
+    {
+      "path": "/3DC",
+      "slug": "3DC",
+      "title": "Manage 3-Data-Center (3DC) Volumes and Replications with SAM4H",
+      "excerpt": "SAM4H is the most advanced Storage Management Tool available for Hitachi Block Storage today. Its outstanding ease of use, fast execution speed and optimal service quality make it the first customer choice and complements Hitachi’s outstanding Storage Hardware Solutions. In numerous situations SAM4H has turned around customers decisions in favour of Hitachi Storage when the onboard Management Tools were clearly rejected due to their well-known deficiencies. T-Systems, Mercedes, Infineon and Allianz are the amongst the most prestigious customers giving proof of that statement.",
+      "dateLabel": "25 Jun 2021",
+      "dateIso": "2021-06-25",
+      "readTimeMinutes": 4,
+      "category": {
+        "name": "SAM4H",
+        "path": "/category/sam4h"
+      },
+      "author": {
+        "name": "Werner Lippert",
+        "path": "/authors/werner-lippert"
+      },
+      "heroImage": {
+        "src": "https://www.peaq.ch/assets/images/blog/3dc.png",
+        "alt": "Manage 3-Data-Center (3DC) Volumes and Replications with SAM4H"
+      },
+      "bodyHtml": "<h3 id=\"state-of-the-art-storage-management\">State of the Art Storage Management</h3>\n<p>SAM4H is the most advanced Storage Management Tool available for Hitachi Block Storage today. Its outstanding ease of use, fast execution speed and optimal service quality make it the first customer choice and complements Hitachi’s outstanding Storage Hardware Solutions. In numerous situations SAM4H has turned around customers decisions in favour of Hitachi Storage when the onboard Management Tools were clearly rejected due to their well-known deficiencies. T-Systems, Mercedes, Infineon and Allianz are the amongst the most prestigious customers giving proof of that statement.</p>\n\n<h3 id=\"its-all-about-automation-and-quality\">It’s all about automation and quality</h3>\n<p>Technically SAM4H (Smart Automation Manager for Hitachi) is a rules-based Management Tool that allows customers to manage Storage Volumes as well as replications in a fast and secure manner. Due to its rules-based nature it allows to completely separate Engineering and Operational Storage Management Tasks. Using SAM4H customers achieve a high level of automation. It’s just there, out of the box, without the need for any additional automation tool. Of course, SAM4H may also be driven by a high level task execution tool like a Change Management Tool or any other Automation Tool, even Ansible, with the help of its REST API interface.</p>\n\n<h3 id=\"manage-gad-and-3dc-with-ease\">Manage GAD and 3DC with ease</h3>\n<p>SAM4H also supports the more and most complex Hitachi replication features in a robust, elegant and fool proof way like no other tool. Hiding the inherent complexity of replications any user can manage GAD (Global Active Device) and HUR (3DC) replications as easy as ordering a pizza from a web shop, requiring no specific knowledge of Hitachi Storage or Replications. Also unique to SAM4H - and an unquestionable MUST HAVE - is the wizard guided resynchronisation of replications after a disaster event, which allows in the most critical situations to re-establish replications, including the replication direction for each individual Volume.</p>\n\n<h3 id=\"three-data-center-3dc\">Three Data Center (3DC)</h3>\n<p>3DC or ‘Three Data Center’ is the most complex Hitachi Storage System setup between 3 data centres and 3 Storage Systems featuring a synchronous copy between 2 data centres (called Primary and Secondary) using GAD and 2 asynchronous copies between Primary and Secondary, respectively, and a third data center. Its goal is to allow for an extra 3rd data copy beyond the 2 copies already provided via GAD and thus to enhance data availability even further. While synchronous copies (via GAD) are limited in terms of distance, 3DC, due to its asynchronous nature overcomes this limitation allowing for any distance between Primary, Secondary and the 3rd data center.</p>\n\n<h3 id=\"managing-gad-and-3dc-objects\">Managing GAD and 3DC objects</h3>\n<p>Managing 3DC objects (Volumes and Replications) involves managing GAD objects, as they are part of a 3DC relationship, plus managing 2 asynchronous copy relationships between Primary, Secondary and the 3rd data center. On a per Volume level (Volumes being storage objects presented to servers and perceived by the latters as Disks where ultimately the customer data is stored). Typical Volume and Replication operations include Creating, Growing, Shrinking and deleting Volumes as well as Creating, Syncing and Splitting Replications (in this case GAD and 3DC replications). Considering a customer environment wit dozens of Storage Systems and tens of Thousands of Volumes we quickly get an idea of the inherent complexity of this solution, clearly underlining the necessity for a very sophisticated management tool, allowing to manage Volumes and replications in a secure, fast, robust and reliable way.</p>\n\n<h3 id=\"managing-gad-and-3dc-with-sam4h\">Managing GAD and 3DC with SAM4H</h3>\n<p>Unlike other solutions SAM4H allows to manage GAD and 3DC objects without requiring to understand Hitachi Storage and the internals of GAD and 3DC. In fact some of the SAM4H customers have aprentices with little to no experience in the storage arena doing all the daily business Volume and Replication Management including GAD and 3DC completely autonomously using SAM4H. This is mainly owed to SAM4H’s rules based architecture allowing to completely separate Engineering and Operational tasks.</p>\n\n<h3 id=\"sam4h-3dc-customer-case\">SAM4H 3DC Customer Case</h3>\n<p>In a large Hitachi Customer Environment 32 Storage Systems spread across 3 data centres with some 800 km distance between Primary, Secondary and the 3rd location. Consisting of several tens of Thousands of Volumes, managing this huge 3DC environment based on the on-board tools required more and more effort rendering the environment more and more unmanageable.</p>\n\n<h3 id=\"storage-migrations-made-easy\">Storage migrations made easy</h3>\n<p>Storage Migrations can be executed using SAM4H in an automated and non-disruptive manner. It allows the user to assign all the Volumes required on the new System in an easy graphical way and also copies the data using GAD. Complementing SAM4H with dedicated migration reports by IOportal, the state of the art Capacity and Performance Management Tool by peaq, the load across the ports on the new Storage System can be perfectly balanced ensuring equally perfectly balanced Storage System Backend utilisation.</p>\n\n<h3 id=\"why-peaq-tools\">Why peaq tools?</h3>\n<p>peaq has been providing tools to improve efficiency and manageability of Hitachi block storage systems for almost 10 years now, with some common, compelling features, that make them customer’s first choice. Peaq tools are quick and easy to install and upgrade, providing customers immediate return on investment. Peaq tools have a low resource consumption foot print allowing customers to run them for a large and very large Hitachi environment. peaq tools execute fast and are robust. Peaq tools are intuitive to use and interpret. Peaq tools provide users with insight on their Hitachi storage landscape. Our mission is to enable customers to get the most out of their Hitachi storage systems securely, efficiently, fast and reliably.</p>"
+    },
+    {
+      "path": "/the-IOportal-shines-in-a-new-design",
+      "slug": "the-IOportal-shines-in-a-new-design",
+      "title": "The IOportal shines in a new design",
+      "excerpt": "The 2020.08 IOportal release shines in a new, fresh and modern design! However, there is more than a fresh paint. The redesigned IOportal is fully responsive: you can even create and analyze complex performance graphics on your mobile device! Improvements have been made in other areas as well:",
+      "dateLabel": "28 Aug 2020",
+      "dateIso": "2020-08-28",
+      "readTimeMinutes": 1,
+      "category": {
+        "name": "IOportal",
+        "path": "/category/ioportal"
+      },
+      "author": {
+        "name": "Georgios Psaltopoulos",
+        "path": "/authors/georgios-psaltopoulos"
+      },
+      "heroImage": {
+        "src": "https://www.peaq.ch/assets/images/blog/Redesigned_IOportal.png",
+        "alt": "The IOportal shines in a new design"
+      },
+      "bodyHtml": "<p>The 2020.08 IOportal release shines in a new, fresh and modern design! However, there is more than a fresh paint. The redesigned IOportal is fully responsive: you can even create and analyze complex performance graphics on your mobile device! Improvements have been made in other areas as well:</p>\n\n<ul>\n  <li><strong>New design</strong>, colors, fonts and icons, make the IOportal easier to work with, navigate and orientate.</li>\n  <li><strong>Fully responsive</strong> – works great on tablets and smartphones.</li>\n  <li><strong>Groups/locations</strong>: Customers can create groups of storage arrays by means of a group name (e.g. DC_North, SAP_Production etc). This makes it easier to consume the various IOportal views focusing on specific storage arrays, while all other arrays that are not part of the group are hidden. This functionality is especially useful for customers with many storage arrays.</li>\n  <li><strong>Performance Graphics</strong>: The thumbnails graphics in the Performance menu have descriptive titles that makes it easier to orientate. The dynamic graphics, that are displayed when clicking on thumbnails, exhibit the same detailed title like the png graphics, offering a multitude of useful information for better understanding and interpreting the graphic.</li>\n  <li><strong>New alerting design</strong>: the alerting functionality has been redesigned and tamed to be less obtrusive. The number of current alerts is displayed with a counter on the alert home page icon. When clicked, the user obtains a brief summary. Further details are available in the alert home page.</li>\n</ul>\n\n<h3 id=\"whats-next\">Whats next</h3>\n\n<p>The redesigned IOportal forms the basis for implementing exciting new features. Radical changes to the whole experience are in the works and we can’t wait to share them with you. Stay tuned!</p>"
+    },
+    {
+      "path": "/meet-the-peaq-service-portal",
+      "slug": "meet-the-peaq-service-portal",
+      "title": "Meet the peaq Service Portal",
+      "excerpt": "The peaq Service Portal (service-portal.peaq.ch) is the latest tool added to peaq’s arsenal, with the sole purpose of assisting the collaboration with our customers and partners. The Service Portal is versatile and covers the needs of different user groups:",
+      "dateLabel": "20 Aug 2020",
+      "dateIso": "2020-08-20",
+      "readTimeMinutes": 1,
+      "category": {
+        "name": "Service Portal",
+        "path": "/category/service-portal"
+      },
+      "author": {
+        "name": "Georgios Psaltopoulos",
+        "path": "/authors/georgios-psaltopoulos"
+      },
+      "heroImage": {
+        "src": "https://www.peaq.ch/assets/images/blog/service-portal-screen.png",
+        "alt": "Meet the peaq Service Portal"
+      },
+      "bodyHtml": "<p>The peaq Service Portal (service-portal.peaq.ch) is the latest tool added to peaq’s arsenal, with the sole purpose of assisting the collaboration with our customers and partners. The Service Portal is versatile and covers the needs of different user groups:</p>\n\n<h3 id=\"customers-of-ioportal-andor-sam4h\">Customers of IOportal and/or SAM4H</h3>\n\n<p>Customers of IOportal and/or SAM4H benefit from following functionality:</p>\n\n<ul>\n  <li>Overview of active products and statistics on licensed storage arrays</li>\n  <li>Get the upload token and upload URL for configuring the collector for the IOportal Cloud Service</li>\n  <li>View product release notes</li>\n  <li>Option to download SAM4H software</li>\n  <li>Detailed view of all contract (products, storage arrays, duration) and the contractual status</li>\n  <li>Option to download a SAM4H license – if applicable</li>\n  <li>Configure systems and download updated license for customers with a site contract</li>\n  <li>Provide feedback to peaq</li>\n</ul>\n\n<h3 id=\"hitachi-and-partners-sales-and-account-managers\">Hitachi and Partners: Sales and Account Managers</h3>\n\n<p>Sales and Account Managers from Hitachi or other Partners benefit from following functionality:</p>\n\n<ul>\n  <li>Overview of customers and their contractual status</li>\n  <li>Functionality for creating valid quotes with a few clicks – no peaq approval required</li>\n  <li>Download price catalogue</li>\n  <li>Provide feedback to peaq</li>\n</ul>\n\n<h3 id=\"hitachi-and-partners-engineers\">Hitachi and Partners: Engineers</h3>\n\n<p>Engineers and technicians from Hitachi or Partners benefit from following functionality:</p>\n\n<ul>\n  <li>View configured and licensed arrays of customer</li>\n  <li>Get the upload token and upload URL for configuring the collector for the IOportal Cloud Service</li>\n  <li>Download SAM4H software and license for performing installations and/or updates (software or license update)</li>\n  <li>Provide feedback to peaq</li>\n</ul>\n\n<p>No account yet? Fill in <a href=\"https://service-portal.peaq.ch/users/invitation_request_form\">this form</a> and we will set you up!</p>"
+    },
+    {
+      "path": "/new-sam4h-release-1.7",
+      "slug": "new-sam4h-release-1.7",
+      "title": "New SAM4H Release v1.7",
+      "excerpt": "SAM4H is a rule-based storage management software for Hitachi storage arrays to manage LUN provisioning and replications. It is designed from the ground up around the premise ‘Rules First’. This ensures that all storage tasks are executed in the same way and follow a standard, even when executed by different members in large teams.",
+      "dateLabel": "28 May 2020",
+      "dateIso": "2020-05-28",
+      "readTimeMinutes": 2,
+      "category": {
+        "name": "SAM4H",
+        "path": "/category/sam4h"
+      },
+      "author": {
+        "name": "Georgios Psaltopoulos",
+        "path": "/authors/georgios-psaltopoulos"
+      },
+      "heroImage": {
+        "src": "https://www.peaq.ch/assets/images/blog/green-background-unframed-icon-PNG-written-out-monochrome-ver.png",
+        "alt": "New SAM4H Release v1.7"
+      },
+      "bodyHtml": "<h3 id=\"about-sam4h\">About SAM4H</h3>\n\n<p>SAM4H is a rule-based storage management software for Hitachi storage arrays to manage LUN provisioning and replications. It is designed from the ground up around the premise ‘Rules First’. This ensures that all storage tasks are executed in the same way and follow a standard, even when executed by different members in large teams.</p>\n<h3 id=\"new-in-v17\">New in V1.7</h3>\n\n<h4 id=\"3dc-support\">3DC Support</h4>\n\n<p>SAM4H is the best tool for easily managing GAD replications. In release v1.7 we bring this to the next level, by offering the same simplicity and automation to 3DC setups. Customers that operate their storage environment in a 3 DC setup – using a GAD pair and a third location with Hitachi Universal Replicator, can now simplify, automate and standardize their operations with SAM4H:</p>\n\n<ul>\n  <li>Provision 3DC LUNs without expert knowledge</li>\n  <li>Create/modify/inspect all 3DC objects via an easy to use graphical user interface</li>\n  <li>No need to touch any HORCM-files</li>\n</ul>\n\n<h4 id=\"rest-api-improvements\">REST API Improvements</h4>\n\n<p>The improved REST API makes it possible to trigger SAM4H actions from outside the application, via REST. This way, it is possible to integrate SAM4H in  various higher level automation workflows, like for instance with <a href=\"https://www.hitachivantara.com/en-us/products/it-operations-management/ops-center/automator.html\">Hitachi Automator</a> or <a href=\"https://www.ansible.com/\">Ansible</a>. Following actions are supported:</p>\n\n<ul>\n  <li>creating LUNs</li>\n  <li>creating HostGroups</li>\n  <li>polling TaskGroups</li>\n</ul>\n\n<p>peaq believes in open architectures and integration of IT systems for maximizing customer value. Along these lines, the REST API will be further enhanced and extended in future releases.</p>\n\n<h4 id=\"other-new-features\">Other new features</h4>\n\n<ul>\n  <li>Support for post-process capacity saving mode</li>\n  <li>Configurable links on welcome page</li>\n  <li>Improved PortGroup handling (multiple PortGroups per Port allowed)</li>\n  <li>Improved consistency group handling</li>\n  <li>Export and Import Templates as JSONs</li>\n  <li>Display task progress bar</li>\n  <li>Support for Sequences in LUN Labels</li>\n  <li>Individual QD Log for each Storage Array</li>\n  <li>Possibility to select the VSM while creating a HostGroup</li>\n  <li>Clone HG Config Template</li>\n  <li>Clone Cluster</li>\n  <li>Queue Dispatcher Satellites</li>\n  <li>Queue Dispatcher threaded mode</li>\n  <li>2 IPs for HORCM files</li>\n  <li>Custom LUN-labels for each DpVolTemplate</li>\n  <li>Various Fixes</li>\n</ul>\n\n<h4 id=\"how-to-get-sam4h-v17\">How to get SAM4H v1.7</h4>\n\n<p>The latest version of SAM4H as well as previous stable versions are available in the peaq Service Portal for existing customers.</p>\n\n<h3 id=\"request-a-demo-or-poc\">Request a demo or PoC</h3>\n\n<p>Please contact us, if you’d like to learn more about SAM4H. We would be glad to discuss with you how SAM4H can help your organization improve storage efficiency, or to support you with a proof of concept. Just drop us an email at info@peaq.ch or find out more on our SAM4H products page.</p>"
+    },
+    {
+      "path": "/new-IOportal-release",
+      "slug": "new-IOportal-release",
+      "title": "New IOportal Release",
+      "excerpt": "peaq welcomes the spring with a new and exciting <a href=\"https://hitachi-ioportal.com\">IOportal</a> release and product logo!",
+      "dateLabel": "29 Mar 2019",
+      "dateIso": "2019-03-29",
+      "readTimeMinutes": 1,
+      "category": {
+        "name": "IOportal",
+        "path": "/category/ioportal"
+      },
+      "author": {
+        "name": "Georgios Psaltopoulos",
+        "path": "/authors/georgios-psaltopoulos"
+      },
+      "heroImage": {
+        "src": "https://www.peaq.ch/assets/images/blog/grey-background-framed-icon-PNG.png",
+        "alt": "New IOportal Release"
+      },
+      "bodyHtml": "<p>peaq welcomes the spring with a new and exciting <a href=\"https://hitachi-ioportal.com\">IOportal</a> release and product logo!</p>\n\n<p>Now, IOportal customers can benefit from following features:</p>\n\n<ul>\n  <li><strong>Backnavigation to Performance menu</strong>: your graphics and menu settings will be waiting for you if you decide to browse other areas of the IOportal and then return to the Performance menu</li>\n  <li><strong>Cached graphics</strong>: A rich set of graphics, that covers the last 72 hours, are precomputed and always available to you in the Performance menu. No more waiting before getting your hands to performance graphics!</li>\n  <li><strong>Performance Pool graphics</strong>: You can now create performance graphics for a whole DP (Dynamic Provisioning) Pool! Easily identify how your pools compare to each other.</li>\n  <li><strong>Ldev Perfromance graphics</strong>: You can now choose any Ldev and investigate its performance.</li>\n  <li><strong>Health Check Reviews</strong>: Customers of the IOportal Proactive Service can access and download all their health check reviews directly in the IOportal.</li>\n</ul>\n\n<p>Are you a Hitachi enterprise storage customer that does not benefit from the IOportal cloud service? Check out the product details here or download the <a href=\"https://hitachi-ioportal.com/downloads/ioportal-flyer.pdf\">flyer</a>.</p>\n\n<p>Your IOportal team.</p>"
+    },
+    {
+      "path": "/peaq-at-Hitacih-Vantara-Forum",
+      "slug": "peaq-at-Hitacih-Vantara-Forum",
+      "title": "peaq @ Hitachi Vantara Forum",
+      "excerpt": "Want to learn about IOportal and SAM4H? What about performance optimisation or storage and backup cross-charging?",
+      "dateLabel": "29 Mar 2019",
+      "dateIso": "2019-03-29",
+      "readTimeMinutes": 1,
+      "category": {
+        "name": "Events",
+        "path": "/category/events"
+      },
+      "author": {
+        "name": "Georgios Psaltopoulos",
+        "path": "/authors/georgios-psaltopoulos"
+      },
+      "heroImage": {
+        "src": "https://www.peaq.ch/assets/images/blog/hitachiForum.png",
+        "alt": "peaq @ Hitachi Vantara Forum"
+      },
+      "bodyHtml": "<p>Want to learn about IOportal and SAM4H? What about performance optimisation or storage and backup cross-charging?</p>\n\n<p>We are happy to meet you in person at the Hitachi Vantara Forum in:</p>\n\n<ul>\n  <li>Vienna – May 16</li>\n  <li>Munich – May 23</li>\n  <li>Baden – June 4</li>\n</ul>\n\n<p>and discuss how we can help you get the most out of your Hitachi Storage Systems!</p>"
+    },
+    {
+      "path": "/disaster-recovery-for-Hitachi-IOportal",
+      "slug": "disaster-recovery-for-Hitachi-IOportal",
+      "title": "Disaster Recovery for Hitachi IOportal",
+      "excerpt": "Hope for the best, prepare for the worst. Although not as easy as stopping a domino, taking provisions for a complete datacenter outage is certainly worth the effort. As such, Hitachi IOportal is now available with a complete disaster recovery solution that guarantees our customers unfettered access to the IOportal service even in a disaster scenario. This includes access to the IOportal, the capability to create performance graphics for the past 30 days and complete access to the Dashboard, Cockpit and Capacity features. Furthermore, customers’ export files will still be received and processed by the IOportal.",
+      "dateLabel": "18 Dec 2018",
+      "dateIso": "2018-12-18",
+      "readTimeMinutes": 3,
+      "category": {
+        "name": "IOportal",
+        "path": "/category/ioportal"
+      },
+      "author": {
+        "name": "Georgios Psaltopoulos",
+        "path": "/authors/georgios-psaltopoulos"
+      },
+      "heroImage": {
+        "src": "https://www.peaq.ch/assets/images/blog/shutterstock_709260979-copy.jpg",
+        "alt": "Disaster Recovery for Hitachi IOportal"
+      },
+      "bodyHtml": "<p>Hope for the best, prepare for the worst. Although not as easy as stopping a domino, taking provisions for a complete datacenter outage is certainly worth the effort. As such, Hitachi IOportal is now available with a complete disaster recovery solution that guarantees our customers unfettered access to the IOportal service even in a disaster scenario. This includes access to the IOportal, the capability to create performance graphics for the past 30 days and complete access to the Dashboard, Cockpit and Capacity features. Furthermore, customers’ export files will still be received and processed by the IOportal.</p>\n\n<h3 id=\"a-solution-is-born\">A solution is born</h3>\n\n<p>When we set out to develop a disaster recovery solution, it quickly became clear that we first need to clearly define the business cases that should be protected. This exercise resulted in a detailed functionality scope that the solution must fulfil. This first specification helped to coarsely decide on the sizing and capabilities of the disaster recovery solution. Next, we set out to discuss non-functional requirements, especially around operating the system. Such a requirement was for instance the need to keep the code version on both production and disaster recovery systems in sync without manual intervention. Another area of intensive discussion was the need to limit day-to-day operational activities to the production system alone, instead of duplicating the workload and maintain two systems. As the discussions proceeded, a list of tasks formed with all various custom implementations that are required in order to achieve our goals. Finally, a crucial part of the design process was the careful E2E simulation of the various steps and phases that will play out during a disaster event:</p>\n\n<ul>\n  <li>Detecting the disaster</li>\n  <li>Deciding whether to switch to the disaster recovery solution or not</li>\n  <li>Operations during disaster recovery</li>\n  <li>Recovery of primary system</li>\n  <li>Resuming regular operations</li>\n</ul>\n\n<p>Going through all theses steps again and again while considering all system aspects, i.e. networking, DNS etc., validated our design and further revealed all the bits and pieces that were missing in terms of functionality.</p>\n\n<h3 id=\"disaster-recovery-architecture\">Disaster Recovery Architecture</h3>\n\n<p>At the end we devised following architecture:</p>\n\n<ul>\n  <li>Offsite location for disaster recovery, in the same VPN as our data center</li>\n  <li>Fully automatic setup of disaster recovery site via Ansible (infrastructure): this includes installing the OS, bootstrapping and installing dedicated software packages on three VMs per environment (total 6 VMs)</li>\n  <li>Automatic application deployment (both front and backend) via Capistrano simultaneously on both sites (see our dedicated blog post on Capistrano</li>\n  <li>Batch jobs for periodically copying over the production database and required csv files from production to disaster recovery, such that we achieve our desired Recovery Point Objective (RPO)</li>\n  <li>Activation of disaster recovery solution via change of either nameservers or A-records. Users are automatically routed to the secondary site</li>\n  <li>Automatic instantaneous duplication of export files between production and disaster recovery sites (both directions)</li>\n  <li>Automatic heartbeat monitoring of production system from offsite location and alerting</li>\n</ul>\n\n<h2 id=\"is-it-worth-it\">Is it worth it?</h2>\n\n<p>Implementing the disaster recovery solution required significant effort. However, a great deal of it involved implementing automatisation which benefits the system per se, irrespective of the disaster recovery case. With every new environment that we set up and every new rollout we perform, we save time and get standardised and improved quality. This is for sure a worthy investment that keeps paying dividends with time. And finally, it was worth feeling the satisfaction that our customers can enjoy the IOportal cloud service no matter what!</p>"
+    },
+    {
+      "path": "/IOportal-meets-REST-API",
+      "slug": "IOportal-meets-REST-API",
+      "title": "IOportal meets REST API",
+      "excerpt": "After its inception in 2013 the <a href=\"https://hitachi-ioportal.com/\">IOportal</a> quickly became famous for its ease of use, quick implementation and, above all, the deep insight it offers into the capacity and performance aspects of Hitachi’s block storage systems. This insight is also accessible for novice users because the IOportal overcomes the limitations of traditional tools, that require deep understanding of the Hitachi storage systems and extensive training on the monitoring tool itself. Today, we are glad to announce that the IOportal now offers integration with higher level monitoring systems via a state-of-the-art REST API, that lets you query and retrieve the crucial information you may want to integrate with your enterprise monitoring dashboard, like Splunk or Grafana.",
+      "dateLabel": "01 Oct 2018",
+      "dateIso": "2018-10-01",
+      "readTimeMinutes": 2,
+      "category": {
+        "name": "IOportal",
+        "path": "/category/ioportal"
+      },
+      "author": {
+        "name": "Werner Lippert",
+        "path": "/authors/werner-lippert"
+      },
+      "heroImage": {
+        "src": "https://www.peaq.ch/assets/images/blog/IOportal_REST.png",
+        "alt": "IOportal meets REST API"
+      },
+      "bodyHtml": "<p>After its inception in 2013 the <a href=\"https://hitachi-ioportal.com/\">IOportal</a> quickly became famous for its ease of use, quick implementation and, above all, the deep insight it offers into the capacity and performance aspects of Hitachi’s block storage systems. This insight is also accessible for novice users because the IOportal overcomes the limitations of traditional tools, that require deep understanding of the Hitachi storage systems and extensive training on the monitoring tool itself. Today, we are glad to announce that the IOportal now offers integration with higher level monitoring systems via a state-of-the-art REST API, that lets you query and retrieve the crucial information you may want to integrate with your enterprise monitoring dashboard, like Splunk or Grafana.</p>\n\n<h3 id=\"get-crucial-up-to-date-storage-system-data-without-hassle\">Get crucial, up-to-date storage system data without hassle</h3>\n\n<p>The IOportal REST API offers the possibility to retrieve crucial dynamical information about your storage systems via commands executed in the background fully automatically and in regular intervals. This information may be parsed and fed into the dashboard of your company’s monitoring tool of choice. Therefore, the REST API connects the IOportal with your company’s dashboard that can now display up-to-date information about your storage systems.</p>\n\n<h3 id=\"security-first\">Security first</h3>\n\n<p>In order to leverage the IOportal REST API you need a valid IOportal user account. Furthermore, access to the data is secured via SSL using the same mechanism that ensures the security of your data upload to the IOportal. This simply means that nobody else but you has access to the data, offering the same level of security you are used to when doing financial transactions via the Internet.</p>\n\n<h3 id=\"detailed-documentation\">Detailed documentation</h3>\n\n<p>Once logged into the IOportal, you will find the REST API documentation under the “Account” menu in the navigation bar. The documentation describes in detail the tools necessary and the steps required to access information about your company’s storage systems. Comprehensive examples help you quickly get up to speed and soon extract your first data using the IOportal REST API.</p>\n\n<h3 id=\"from-data-to-insight\">From data to insight</h3>\n\n<p>Data is offered in a standard format (JSON) for which many tools exist for further processing. You may extract detailed information of all capacity aspects of each storage pool, including pool size, used capacity and compression ratio. Use this information to raise an alarm in your standard issue management tool in case critical thresholds are exceeded. In order to be able to react to changes in the dynamical behaviour of your storage systems, use the data extracted from the dashboard tables offering the same values you are already familiar with from the IOportal dashboard view: Your storage system’s 24 hour average workload, its respective average response time indicating bottlenecks at an early stage, daily threshold excess pointing out resource constraints and servers affected by performance degradation.\nGet the most out of your Hitachi Storage Systems</p>\n\n<p>The IOportal REST API lets you tightly integrate information about your storage systems into your operations data center environment helping you get the most out of your Hitachi storage systems.</p>"
+    },
+    {
+      "path": "/new-IOportal-feature-alerts",
+      "slug": "new-IOportal-feature-alerts",
+      "title": "New IOportal feature - Alerts",
+      "excerpt": "Monitoring the health status of an enterprise storage array is cumbersome: it requires checking the statistics on a multitude of resources and try to identify irregularities. The Hitachi IOportal offers several tools that enable storage administrators to quickly obtain the most important metrics, by means of the IOportal Dashboard, Cockpit and Capacity views. Nevertheless, it can still happen that important anomalies are overseen and ignored. In the worst case this can lead to incidents with business impact. Ideally, the IOportal should proactively alert the users of significant events and explicitly draw their attention to them. Well, there are good news!",
+      "dateLabel": "18 Sep 2018",
+      "dateIso": "2018-09-18",
+      "readTimeMinutes": 2,
+      "category": {
+        "name": "IOportal",
+        "path": "/category/ioportal"
+      },
+      "author": {
+        "name": "Georgios Psaltopoulos",
+        "path": "/authors/georgios-psaltopoulos"
+      },
+      "heroImage": {
+        "src": "https://www.peaq.ch/assets/images/blog/alerting.jpg",
+        "alt": "New IOportal feature - Alerts"
+      },
+      "bodyHtml": "<p>Monitoring the health status of an enterprise storage array is cumbersome: it requires checking the statistics on a multitude of resources and try to identify irregularities. The Hitachi IOportal offers several tools that enable storage administrators to quickly obtain the most important metrics, by means of the IOportal Dashboard, Cockpit and Capacity views. Nevertheless, it can still happen that important anomalies are overseen and ignored. In the worst case this can lead to incidents with business impact. Ideally, the IOportal should proactively alert the users of significant events and explicitly draw their attention to them. Well, there are good news!</p>\n\n<p>The newest release of Hitachi IOportal introduces alerting! The new alerting functionality informs the IOportal user of all significant events as soon as the user logs in, by displaying appropriately colored banners – one for each alert category. Clicking on the banner forwards the user to the respective detailed view. Furthermore, a new navigation menu, denoted by an exclamation mark, acts as the alert home page and provides further details on each alert. Finally, the user can subscribe to a daily email that summarises all alerts.</p>\n\n<h3 id=\"alert-categories\">Alert Categories</h3>\n\n<p>Following alert categories are available in the first incarnation of the feature:</p>\n\n<ul>\n  <li><strong>Pool Capacity Alerts</strong>: a warning alert is triggered when the physical or logical pool capacity is above 75%. A risk alert is triggered when the pool utilisation is above 85%.</li>\n  <li><strong>HORCM File Delivery Alerts</strong>: warning or error alerts are triggered when certain HORCM files have not been delivered or updated during the last 24 hours or 3 days, respectively.</li>\n  <li><strong>Export File Delivery Alerts</strong>: warning or error alerts are triggered when the last 24 hours, respectively 72 hours, are not covered by export log files.</li>\n</ul>\n\n<h3 id=\"outlook\">Outlook</h3>\n\n<p>The above alert categories lay the foundation for monitoring a storage array: they comprise pool capacity alerts, which may cause a standstill of operations if they a pool runs full, and file delivery alerts (export and horcm), since we can’t monitor anything if the monitoring log files are not available. Future releases will further build on this powerful feature and provide finer grained and more sophisticated alerts which will increase the value proposition of the IOportal even further! Stay tuned,</p>\n\n<p>Your IOportal team</p>"
+    },
+    {
+      "path": "/new-sam4h-release-v1.5",
+      "slug": "new-sam4h-release-v1.5",
+      "title": "New SAM4H Release V1.5",
+      "excerpt": "SAM4H is a rule-based storage management software for Hitachi storage arrays to manage LUN provisioning and replications. It is designed from the ground up around the premise ‘Rules First’. This ensures that all storage tasks are executed in the same way and follow a standard even when executed by different members in large teams.",
+      "dateLabel": "07 Aug 2018",
+      "dateIso": "2018-08-07",
+      "readTimeMinutes": 2,
+      "category": {
+        "name": "SAM4H",
+        "path": "/category/sam4h"
+      },
+      "author": {
+        "name": "Philip Kurmann",
+        "path": "/authors/philip-kurmann"
+      },
+      "heroImage": {
+        "src": "https://www.peaq.ch/assets/images/blog/green-background-unframed-icon-PNG-written-out-monochrome-ver.png",
+        "alt": "New SAM4H Release V1.5"
+      },
+      "bodyHtml": "<h3 id=\"about-sam4h\">About SAM4H</h3>\n\n<p>SAM4H is a rule-based storage management software for Hitachi storage arrays to manage LUN provisioning and replications. It is designed from the ground up around the premise ‘Rules First’. This ensures that all storage tasks are executed in the same way and follow a standard even when executed by different members in large teams.</p>\n\n<h3 id=\"new-in-v15\">New in V1.5</h3>\n\n<p>Recently we released V1.5 of SAM4H. The new version has some long awaited features like tenant capability and deletion of host groups. Thanks to the integration of Elasticsearch it is now possible to efficiently search across all executed tasks.</p>\n\n<h4 id=\"tenant-capability\">Tenant capability</h4>\n\n<p>This has been one of the most awaited features: It is now possible to create users which only have privileges for non destructive tasks on selected servers. This will let you create a self-service portal for adding and removing LUNs to some servers. Unix and DB administrators are now allowed to manage their own server storage by themselves.</p>\n\n<h4 id=\"gad-monitoring\">GAD Monitoring</h4>\n\n<p>With the new GAD Monitoring feature, SAM4H periodically checks if GAD replications exist, which are not in pair. If any broken pairs are found, an email notification is generated.</p>\n\n<h4 id=\"full-text-search\">Full text search</h4>\n\n<p>Over time, the timeline in the main view can get very long. We now integrated Elasticsearch into SAM4H, which enables fulltext search in the timeline and brings its value to the next level.</p>\n\n<h4 id=\"other-new-features\">Other new features</h4>\n\n<ul>\n  <li>Split Replications: Choose between splitting one single replication or the whole CTG</li>\n  <li>Delete Hostgroups</li>\n  <li>Delete and Unmap a LUN in one step</li>\n  <li>Individual LUN-Labeling (Enter LUN-labels when creating LUNs)</li>\n  <li>LUN-Report improvements:\n    <ul>\n      <li>Configurable columns</li>\n      <li>Sort</li>\n      <li>Display copystatus</li>\n      <li>Display consistency group</li>\n      <li>Nicknames is displayed in the LUN selectors</li>\n    </ul>\n  </li>\n  <li>Audit Log-File</li>\n  <li>ReadOnly-Flag for Clusters (Read Only Clusters are only selectable for reports and are hidden in the provisioning sections)</li>\n  <li>Copy Template</li>\n  <li>Check for correct characters when entering WWNs</li>\n  <li>Bugfixes</li>\n  <li>Multiple GUI improvements</li>\n</ul>\n\n<h4 id=\"request-a-demo-or-poc\">Request a demo or PoC</h4>\n\n<p>Please contact us, if you’d like to learn more about SAM4H. We would be glad to show you details about SAM4H or to support you with a proof of concept. Just drop us an email at info@peaq.ch or find out more on our <a href=\"https://peaq.ch/produkte/sam4h/\">SAM4H products page</a>.</p>"
+    },
+    {
+      "path": "/IOportal-capacity-reloaded",
+      "slug": "IOportal-capacity-reloaded",
+      "title": "IOportal - Capacity View Reloaded!",
+      "excerpt": "The IOportal has offered a deep insight into the capacity status of Hitachi storage arrays since its introduction. The capacity information is available on pool level, server level as well as aggregated over all pools or even over all storage arrays of a customer. Now, our major redesign of the IOportal Capacity view takes the functionality to the next level, allowing the user to immediately identify the pools at risk.",
+      "dateLabel": "23 Apr 2018",
+      "dateIso": "2018-04-23",
+      "readTimeMinutes": 1,
+      "category": {
+        "name": "IOportal",
+        "path": "/category/ioportal"
+      },
+      "author": {
+        "name": "Georgios Psaltopoulos",
+        "path": "/authors/georgios-psaltopoulos"
+      },
+      "heroImage": {
+        "src": "https://www.peaq.ch/assets/images/blog/New_Capacity2.png",
+        "alt": "IOportal - Capacity View Reloaded!"
+      },
+      "bodyHtml": "<h3 id=\"ioportal-capacity\">IOportal Capacity</h3>\n\n<p>The IOportal has offered a deep insight into the capacity status of Hitachi storage arrays since its introduction. The capacity information is available on pool level, server level as well as aggregated over all pools or even over all storage arrays of a customer. Now, our major redesign of the IOportal Capacity view takes the functionality to the next level, allowing the user to immediately identify the pools at risk.</p>\n\n<h3 id=\"pool-risk-status\">Pool Risk Status</h3>\n\n<p>When it comes to operating an enterprise storage array nothing is more important than keeping track of the available free capacity on a pool level. The new Capacity View places the pool overview and the respective pool status front and center. Each tile (see figure) represents a pool and displays the pool status as well as the most relevant physical capacity measures. If the pool status is already at risk level, i.e. used capacity is above 85%, the whole pool tile is drawn on a red background. This way it is easy to immediately spot pools (or storage arrays) that require attention.</p>\n\n<p>Once a user is interested in the details of a particular pool, he is presented with a new view organizes the various pool figures into virtual, logical and physical ones. The logical and physical view take the newest FMC compression functionality into account. This allows the user to obtain a thorough understanding of the compression status of his pools.</p>\n\n<p>Did we draw your attention? You can find out more about the new Capacity view in the IOportal user guide. Not an IOportal customer yet? Do not hesitate to contact us to find out more.</p>"
+    },
+    {
+      "path": "/which-dp-pool-will-fillup-next",
+      "slug": "which-dp-pool-will-fillup-next",
+      "title": "Do you know which DP-pool will fill-up next?",
+      "excerpt": "Keeping an eye on the status of each dynamic-provisioning (DP) pool is crucial but a daunting task as well. IOportal offers a detailed view of each DP-pool, along with a graphics that illustrates the evolution of the pool during the past year as well as a prediction for the next six months. But what about a condensed pool status view over all pools across all storage arrays, where all important information is available at a glance?",
+      "dateLabel": "14 Jul 2017",
+      "dateIso": "2017-07-14",
+      "readTimeMinutes": 1,
+      "category": {
+        "name": "IOportal",
+        "path": "/category/ioportal"
+      },
+      "author": {
+        "name": "Georgios Psaltopoulos",
+        "path": "/authors/georgios-psaltopoulos"
+      },
+      "heroImage": {
+        "src": "https://www.peaq.ch/assets/images/blog/Cockpit_Pool_bubble_chart.png",
+        "alt": "Do you know which DP-pool will fill-up next?"
+      },
+      "bodyHtml": "<p>Keeping an eye on the status of each dynamic-provisioning (DP) pool is crucial but a daunting task as well. IOportal offers a detailed view of each DP-pool, along with a graphics that illustrates the evolution of the pool during the past year as well as a prediction for the next six months. But what about a condensed pool status view over all pools across all storage arrays, where all important information is available at a glance?</p>\n\n<h3 id=\"new-dp-pool-bubble-chart-in-ioportal-cockpit\">New DP-pool bubble chart in IOportal Cockpit</h3>\n\n<p>Look no further: the new DP-pool bubble chart in IOportal Cockpit brings together the most important DP-pool information in one single chart! Each bubble represents one DP-pool whereas the color of the bubble indicates the storage array. The horizontal position of a bubble represents the allocated pool size. The vertical position represents the  percentage of used capacity. Bubbles that are close to the 100% line are almost full. Is this a problem?</p>\n\n<p>Well, it depends. If the pool size is still growing, then maybe. If the pool size is growing fast, then certainly. We capture these dynamics in the size of the bubbles: big bubbles indicate pools that are growing „fast“. How fast is fast?</p>\n\n<p>Actually it does not matter. What matters is how soon we expect the pool to run full. Hence, very big bubbles indicate pools that will run full within 3 months. You want to do something about those. The smaller the bubble size, the longer it takes until the pool runs full.</p>\n\n<p>So in fact it does not matter if a pool is close to 100% full. There may be a new pool lurking with lots of free space, that nevertheless grows rapidly and requires close monitoring. The bubble size is all you need to look at.</p>\n\n<p>So there you are. One chart is all it takes to be the master of your DP-pools.</p>"
+    },
+    {
+      "path": "/use-puma-to-deploy-your-rails-app-with-ssl",
+      "slug": "use-puma-to-deploy-your-rails-app-with-ssl",
+      "title": "Use Puma to deploy your Rails APP with SSL",
+      "excerpt": "We at peaq develop several Rails applications. Some of them are installed on premise on a customer server. Although such applications are not publicly accessible, you want to secure their connections by SSL though.",
+      "dateLabel": "10 Jul 2017",
+      "dateIso": "2017-07-10",
+      "readTimeMinutes": 2,
+      "category": {
+        "name": "Ruby on Rails",
+        "path": "/category/ruby-on-rails"
+      },
+      "author": {
+        "name": "Philip Kurmann",
+        "path": "/authors/philip-kurmann"
+      },
+      "heroImage": {
+        "src": "https://www.peaq.ch/assets/images/blog/Puma-SSL-5.png",
+        "alt": "Use Puma to deploy your Rails APP with SSL"
+      },
+      "bodyHtml": "<h3 id=\"background\">Background</h3>\n\n<p>We at peaq develop several Rails applications. Some of them are installed on premise on a customer server. Although such applications are not publicly accessible, you want to secure their connections by SSL though.</p>\n\n<p>The typical recommendation for deploying Rails-Apps says, you should set up NGINX or Apache to serve the assets and use those web servers as reverse proxies for routing all dynamic requests to the Rails application-server (like Unicorn or Puma). But  typically such private applications do not have heavy load and it would be overkill to deploy them with this approach. It would be handy to have an application server, which handles SSL directly. The good answer: It is possible with Puma!</p>\n\n<h3 id=\"configure-your-rails-app-to-use-puma\">Configure your Rails-App to use Puma</h3>\n\n<p>First you need to configure Puma to be your application  server. There’s a good chance, that you can skip this step as Puma is the default application server since Rails 5. But for all which are still using Rails 4, add the following line to your Gemfile:</p>\n\n<div class=\"language-bash highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code>gem <span class=\"s1\">'puma'</span>\n</code></pre></div></div>\n\n<h3 id=\"create-your-ssl-certificates\">Create your SSL certificates</h3>\n\n<p>Once Puma is your default application server, it is time to create the SSL certificates. We are using openssl for this. There are 5 steps, you need to execute:</p>\n\n<h4 id=\"step-1-generate-your-private-key\">Step 1: Generate your private key</h4>\n\n<div class=\"language-bash highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code>openssl genrsa <span class=\"nt\">-des3</span> <span class=\"nt\">-passout</span> pass:x <span class=\"nt\">-out</span> server.pass.key 2048\n</code></pre></div></div>\n\n<h4 id=\"step-2-remove-passphrase-from-key\">Step 2: Remove passphrase from key</h4>\n\n<div class=\"language-bash highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code>openssl rsa <span class=\"nt\">-passin</span> pass:x <span class=\"nt\">-in</span> server.pass.key <span class=\"nt\">-out</span> server.key\n</code></pre></div></div>\n\n<h4 id=\"step-3-generate-a-csr-certificate-signing-request\">Step 3: Generate a CSR (Certificate Signing Request)</h4>\n\n<div class=\"language-bash highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code>openssl req <span class=\"nt\">-new</span> <span class=\"nt\">-key</span> server.key <span class=\"nt\">-out</span> server.csr\n</code></pre></div></div>\n\n<h4 id=\"step-4-generating-a-self-signed-certificate\">Step 4: Generating a Self-Signed Certificate</h4>\n\n<div class=\"language-bash highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code>openssl x509 <span class=\"nt\">-req</span> <span class=\"nt\">-sha256</span> <span class=\"nt\">-days</span> 365 <span class=\"nt\">-in</span> server.csr <span class=\"nt\">-signkey</span> server.key <span class=\"nt\">-out</span> server.crt\n</code></pre></div></div>\n<h4 id=\"step-5-copy-the-csr--and-key-files-to-your-config-directory\">Step 5: Copy the CSR- and KEY-Files to your config directory</h4>\n\n<div class=\"language-bash highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code><span class=\"nb\">cp </span>server.crt server.key /path_to_your/rails_app/config\n</code></pre></div></div>\n\n<h3 id=\"test-start-your-rails-app-with-ssl\">Test: Start your Rails-App with SSL</h3>\n\n<p>Once Puma is your application server, simply start the server with the following options, and you have SSL connection to your Rails App:</p>\n\n<div class=\"language-bash highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code>puma <span class=\"nt\">-b</span> <span class=\"s1\">'ssl://127.0.0.1:3000?key=/path_to_your/rails_app/config/server.key&amp;cert=/path_to_your/rails_app/config/server.crt'</span>\n</code></pre></div></div>\n\n<h3 id=\"configure-puma\">Configure Puma</h3>\n\n<p>If the test is successful, Puma could be configured with a config file called config/puma.rb. The advantage of doing it this way is, that you don’t need to remember all the SSL-options for starting your server. Here is a working puma.rb configured for SSL:</p>\n\n<div class=\"language-ruby highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code><span class=\"c1\"># Config Parameters</span>\n<span class=\"n\">app_root</span> <span class=\"o\">=</span> <span class=\"no\">ENV</span><span class=\"p\">[</span><span class=\"s1\">'APP_ROOT'</span><span class=\"p\">]</span> <span class=\"o\">||</span> <span class=\"s1\">'.'</span>\n<span class=\"n\">rails_env</span> <span class=\"o\">=</span> <span class=\"no\">ENV</span><span class=\"p\">[</span><span class=\"s1\">'RAILS_ENV'</span><span class=\"p\">]</span> <span class=\"o\">||</span> <span class=\"s1\">'production'</span>\n<span class=\"n\">ip_addr</span> <span class=\"o\">=</span> <span class=\"no\">ENV</span><span class=\"p\">[</span><span class=\"s1\">'IP_ADDR'</span><span class=\"p\">]</span> <span class=\"o\">||</span> <span class=\"s1\">'localhost'</span>\n<span class=\"n\">port</span> <span class=\"o\">=</span> <span class=\"no\">ENV</span><span class=\"p\">[</span><span class=\"s1\">'PORT'</span><span class=\"p\">]</span> <span class=\"o\">||</span> <span class=\"mi\">3000</span>\n<span class=\"n\">ssl_key</span> <span class=\"o\">=</span> <span class=\"no\">ENV</span><span class=\"p\">[</span><span class=\"s1\">'SSL_KEY'</span><span class=\"p\">]</span>\n<span class=\"n\">ssl_cert</span> <span class=\"o\">=</span> <span class=\"no\">ENV</span><span class=\"p\">[</span><span class=\"s1\">'SSL_CERT'</span><span class=\"p\">]</span>\n\n\n<span class=\"c1\"># Set Puma parameters</span>\n<span class=\"n\">preload_app!</span>\n<span class=\"n\">rackup</span> <span class=\"no\">DefaultRackup</span>\n<span class=\"n\">environment</span> <span class=\"n\">rails_env</span>\n<span class=\"n\">pidfile</span> <span class=\"s2\">\"</span><span class=\"si\">#{</span><span class=\"n\">app_root</span><span class=\"si\">}</span><span class=\"s2\">/tmp/pids/puma.pid\"</span>\n<span class=\"n\">state_path</span> <span class=\"s2\">\"</span><span class=\"si\">#{</span><span class=\"n\">app_root</span><span class=\"si\">}</span><span class=\"s2\">/tmp/pids/puma.state\"</span>\n<span class=\"n\">threads</span> <span class=\"mi\">0</span><span class=\"p\">,</span> <span class=\"mi\">16</span>\n<span class=\"n\">workers</span> <span class=\"mi\">2</span>\n<span class=\"n\">stdout_redirect</span> <span class=\"s2\">\"</span><span class=\"si\">#{</span><span class=\"n\">app_root</span><span class=\"si\">}</span><span class=\"s2\">/log/puma.log\"</span><span class=\"p\">,</span> <span class=\"s2\">\"</span><span class=\"si\">#{</span><span class=\"n\">app_root</span><span class=\"si\">}</span><span class=\"s2\">/log/puma.err\"</span><span class=\"p\">,</span> <span class=\"kp\">true</span> <span class=\"k\">if</span> <span class=\"n\">rails_env</span><span class=\"p\">.</span><span class=\"nf\">downcase</span> <span class=\"o\">==</span> <span class=\"s1\">'production'</span>\n\n<span class=\"c1\"># HTTP or HTTPS</span>\n<span class=\"k\">if</span> <span class=\"n\">ssl_key</span><span class=\"p\">.</span><span class=\"nf\">present?</span> <span class=\"o\">&amp;&amp;</span> <span class=\"n\">ssl_cert</span><span class=\"p\">.</span><span class=\"nf\">present?</span>\n  <span class=\"n\">bind</span> <span class=\"s2\">\"ssl://</span><span class=\"si\">#{</span><span class=\"n\">ip_addr</span><span class=\"si\">}</span><span class=\"s2\">:</span><span class=\"si\">#{</span><span class=\"n\">port</span><span class=\"si\">}</span><span class=\"s2\">?key=</span><span class=\"si\">#{</span><span class=\"n\">ssl_key</span><span class=\"si\">}</span><span class=\"s2\">&amp;cert=</span><span class=\"si\">#{</span><span class=\"n\">ssl_cert</span><span class=\"si\">}</span><span class=\"s2\">\"</span>\n<span class=\"k\">else</span>\n  <span class=\"n\">bind</span> <span class=\"s2\">\"tcp://</span><span class=\"si\">#{</span><span class=\"n\">ip_addr</span><span class=\"si\">}</span><span class=\"s2\">:</span><span class=\"si\">#{</span><span class=\"n\">port</span><span class=\"si\">}</span><span class=\"s2\">\"</span>\n<span class=\"k\">end</span>\n</code></pre></div></div>"
+    },
+    {
+      "path": "/new-IOportal-release-meet-the-cockpit",
+      "slug": "new-IOportal-release-meet-the-cockpit",
+      "title": "New IOportal release - meet the Cockpit",
+      "excerpt": "IOportal customers can now benefit from the “Cockpit” graphics. The new bubble-chart graphics represent various threshold violations across cache, crossbar, parity groups, multiprocessors, ports and servers that occurred during the last day. The IOportal user can identify at a glance which resources can potentially lead to performance issues and require closer monitoring and/or investigation.",
+      "dateLabel": "30 Mar 2017",
+      "dateIso": "2017-03-30",
+      "readTimeMinutes": 1,
+      "category": {
+        "name": "IOportal",
+        "path": "/category/ioportal"
+      },
+      "author": {
+        "name": "Georgios Psaltopoulos",
+        "path": "/authors/georgios-psaltopoulos"
+      },
+      "heroImage": {
+        "src": "https://www.peaq.ch/assets/images/blog/IOportal_v6_3.png",
+        "alt": "New IOportal release - meet the Cockpit"
+      },
+      "bodyHtml": "<p>IOportal customers can now benefit from the “Cockpit” graphics. The new bubble-chart graphics represent various threshold violations across cache, crossbar, parity groups, multiprocessors, ports and servers that occurred during the last day. The IOportal user can identify at a glance which resources can potentially lead to performance issues and require closer monitoring and/or investigation.</p>\n\n<p>Furthermore, each IOportal customer can compare the performance of his storage arrays with the array  performance of all other IOportal customers. This comparison highlights the common performance profile of various HDS array models based on real world data from actual production installations. All customer-identifying data are anonymised for this cross-customer graphic.</p>\n\n<p>Learn more about the new IOportal Cockpit functionality in the IOportal user guide!</p>"
+    }
+  ],
+  "authors": [
+    {
+      "path": "/authors/georgios-psaltopoulos",
+      "slug": "georgios-psaltopoulos",
+      "name": "Georgios Psaltopoulos",
+      "bio": "Georgios is the living incarnation of an infallible error detector with the perfect state of mind to create robust, error-free monitoring software. Besides maintaining the IOportal Health Check graphs and reports and the new V2 IOportal dashboard and anomaly radar, he manages the development of the peaq Service portal, which complements our tools to facilitate roll-out of new versions and administration of quotes and licenses.",
+      "image": {
+        "src": "https://www.peaq.ch/assets/images/authors/GeorgiosPsaltopoulos.jpg",
+        "alt": "Georgios Psaltopoulos"
+      },
+      "linkedin": "https://www.linkedin.com/company/peaq-gmbh"
+    },
+    {
+      "path": "/authors/philip-kurmann",
+      "slug": "philip-kurmann",
+      "name": "Philip Kurmann",
+      "bio": "Developing software to manage storage infrastructure for business critical customer environments, that is easy to use and yet robust and error free, requires excellent knowledge in both software development and storage infrastructure. Philip possesses both in a unique way combined with the strive to deliver best-of-breed solutions that are fun to use.",
+      "image": {
+        "src": "https://www.peaq.ch/assets/images/authors/PhilipKurmann.jpg",
+        "alt": "Philip Kurmann"
+      },
+      "linkedin": "https://www.linkedin.com/company/peaq-gmbh"
+    },
+    {
+      "path": "/authors/werner-lippert",
+      "slug": "werner-lippert",
+      "name": "Werner Lippert",
+      "bio": "With the background of a PhD in Physics and 30+ years of experience in data analysis, different kinds of Unix flavours and storage technologies Werner designed and implemented the first versions of the IOportal, which has proven to solve all kinds of storage related questions in countless situations over the past 10 years.",
+      "image": {
+        "src": "https://www.peaq.ch/assets/images/authors/WernerLippert.jpg",
+        "alt": "Werner Lippert"
+      },
+      "linkedin": "https://www.linkedin.com/company/peaq-gmbh"
+    }
+  ],
+  "categories": [
+    {
+      "path": "/category/events",
+      "slug": "events",
+      "name": "Events",
+      "count": 4
+    },
+    {
+      "path": "/category/ioportal",
+      "slug": "ioportal",
+      "name": "IOportal",
+      "count": 14
+    },
+    {
+      "path": "/category/peaq",
+      "slug": "peaq",
+      "name": "peaq",
+      "count": 1
+    },
+    {
+      "path": "/category/proactive-service",
+      "slug": "proactive-service",
+      "name": "Proactive Service",
+      "count": 1
+    },
+    {
+      "path": "/category/ruby-on-rails",
+      "slug": "ruby-on-rails",
+      "name": "Ruby on Rails",
+      "count": 1
+    },
+    {
+      "path": "/category/sam4h",
+      "slug": "sam4h",
+      "name": "SAM4H",
+      "count": 11
+    },
+    {
+      "path": "/category/service-portal",
+      "slug": "service-portal",
+      "name": "Service Portal",
+      "count": 1
+    }
+  ]
+}
