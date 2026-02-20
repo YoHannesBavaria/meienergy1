@@ -7,6 +7,14 @@ type Props = {
 };
 
 const FALLBACK_IMAGE = "/legacy-assets/meienergy.de/wp-content/uploads/2021/08/Sauna-Bild.jpg";
+const ROTATING_FALLBACKS = [
+  "/legacy-assets/meienergy.de/wp-content/uploads/2020/07/news-7.jpg",
+  "/legacy-assets/meienergy.de/wp-content/uploads/2020/07/news-8.jpg",
+  "/legacy-assets/meienergy.de/wp-content/uploads/2020/07/news-9.jpg",
+  "/legacy-assets/meienergy.de/wp-content/uploads/2020/07/news-10.jpg",
+  "/legacy-assets/meienergy.de/wp-content/uploads/2020/07/author-1-1.jpg",
+  "/legacy-assets/meienergy.de/wp-content/uploads/2020/07/author-4-1.jpg",
+];
 
 export function HomeView({ content }: Props) {
   const features = getFeaturedPages(content);
@@ -42,7 +50,13 @@ export function HomeView({ content }: Props) {
             {heroShowcase.map((item, index) => (
               <figure key={`${item.page.path}-${index}`} className={`hero-showcase-card hero-showcase-${index + 1}`}>
                 {/* eslint-disable-next-line @next/next/no-img-element */}
-                <img src={item.image} alt={item.page.title} className="hero-showcase-image" loading="lazy" />
+                <img
+                  src={item.image}
+                  alt={item.page.title}
+                  className="hero-showcase-image"
+                  loading="eager"
+                  fetchPriority={index === 0 ? "high" : "auto"}
+                />
                 <figcaption>{item.page.title}</figcaption>
               </figure>
             ))}
@@ -77,11 +91,17 @@ export function HomeView({ content }: Props) {
       </section>
 
       <section className="feature-grid">
-        {featuredCards.map(({ page, image }) => (
+        {featuredCards.map(({ page, image }, index) => (
           <article key={page.path} className="feature-card">
             <div className="feature-image-frame">
               {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img src={image} alt={page.title} className="feature-image" loading="lazy" />
+              <img
+                src={image}
+                alt={page.title}
+                className="feature-image"
+                loading={index < 4 ? "eager" : "lazy"}
+                fetchPriority={index < 2 ? "high" : "auto"}
+              />
             </div>
             <div>
               <p className="card-eyebrow">{translateCategory(page.category)}</p>
@@ -101,11 +121,11 @@ export function HomeView({ content }: Props) {
       </section>
 
       <section className="news-grid">
-        {latestCards.map(({ page, image }) => (
+        {latestCards.map(({ page, image }, index) => (
           <article key={page.path} className="news-card">
             <div className="feature-image-frame">
               {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img src={image} alt={page.title} className="feature-image" loading="lazy" />
+              <img src={image} alt={page.title} className="feature-image" loading={index < 4 ? "eager" : "lazy"} />
             </div>
             <div className="news-copy">
               <p className="card-eyebrow">{translateCategory(page.category)}</p>
@@ -138,12 +158,16 @@ export function HomeView({ content }: Props) {
 function assignDisplayImages(pages: LegacyPage[], seeded?: Set<string>) {
   const used = seeded || new Set<string>();
 
-  return pages.map((page) => {
+  return pages.map((page, index) => {
     const candidatePool = [page.heroImage, ...(page.contentImages || [])]
       .map((item) => String(item || "").trim())
       .filter(Boolean);
 
-    const uniqueCandidate = candidatePool.find((item) => !used.has(item.toLowerCase())) || candidatePool[0] || FALLBACK_IMAGE;
+    const uniqueCandidate =
+      candidatePool.find((item) => !used.has(item.toLowerCase())) ||
+      candidatePool[0] ||
+      ROTATING_FALLBACKS[index % ROTATING_FALLBACKS.length] ||
+      FALLBACK_IMAGE;
     used.add(uniqueCandidate.toLowerCase());
 
     return {

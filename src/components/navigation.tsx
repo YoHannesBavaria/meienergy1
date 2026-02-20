@@ -41,7 +41,7 @@ export function Navigation({ menuItems }: Props) {
         <Link href="/" className="brand-lockup" onClick={() => setIsOpen(false)}>
           <span className="brand-logo-wrap">
             <Image
-              src="/legacy-assets/meienergy.de/wp-content/uploads/2021/09/NEU-Mei_Energy_Logo.png"
+              src="/legacy-assets/meienergy.de/wp-content/uploads/2021/08/Mei_Energy_Logo_2021.png"
               alt="Mei Energy"
               width={190}
               height={56}
